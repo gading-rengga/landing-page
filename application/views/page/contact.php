@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="<?= base_url('assets') ?>/css/sobad-style.css">
+    <link rel="stylesheet" href="<?= base_url('assets') ?>/css/contact-style.css">
     <link rel="stylesheet" href="<?= base_url('assets') ?>/bootstrap-4/css/bootstrap.min.css">
 </head>
 
@@ -19,12 +19,12 @@
                     <p class="white">@soloabadi</p>
                 </div>
                 <div class="col-md-6 mt-5 mr-auto ml-auto text-center">
-                    <a href="https://soloabadi.com/light-id/" class="btn btn-white border-sm-white white rounded-md w-100 mb-3" target="_blank">Light</a>
-                    <a href="https://soloabadi.com/kursi-antropometri/" class="btn btn-white border-sm-white white rounded-md w-100 mb-3" target="_blank">Kursi Antropometri</a>
-                    <a href="https://soloabadi.com/metrisis-idn/" class="btn btn-white border-sm-white white rounded-md w-100 mb-3" target="_blank">Metrisis</a>
-                    <a href="https://soloabadi.com/stunting-kit-edition/" class="btn btn-white border-sm-white white rounded-md w-100 mb-3" target="_blank">StuntingKit</a>
-                    <a href="https://soloabadi.com/marketplace-id/" class="btn btn-white border-sm-white white rounded-md w-100 mb-3" target="_blank">Marketplace</a>
-                    <a href="https://wa.me/6285100888111" class="btn btn-white border-sm-white white rounded-md w-100 mb-3" target="_blank">Kontak</a>
+                    <a href="https://soloabadi.com/light-id/" class="btn  border-sm-white white rounded-md w-100 mb-3" target="_blank">Light</a>
+                    <a href="https://soloabadi.com/kursi-antropometri/" class="btn  border-sm-white white rounded-md w-100 mb-3" target="_blank">Kursi Antropometri</a>
+                    <a href="https://soloabadi.com/metrisis-idn/" class="btn  border-sm-white white rounded-md w-100 mb-3" target="_blank">Metrisis</a>
+                    <a href="https://soloabadi.com/stunting-kit-edition/" class="btn  border-sm-white white rounded-md w-100 mb-3" target="_blank">StuntingKit</a>
+                    <a href="https://soloabadi.com/marketplace-id/" class="btn  border-sm-white white rounded-md w-100 mb-3" target="_blank">Marketplace</a>
+                    <a href="https://wa.me/6285100888111" class="btn  border-sm-white white rounded-md w-100 mb-3" target="_blank">Kontak</a>
                 </div>
             </div>
             <div class="col-md-12  mr-auto ml-auto text-center">

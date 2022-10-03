@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'CerebriSansBold';
+    src: url('../fonts/CerebriSansBold.woff');
+}
+@font-face {
+    font-family: 'CerebriSansBook';
+    src: url('../fonts/CerebriSansBook.woff');
+}
+
+.regular{
+    font-family:CerebriSansBook !important;
+}
+.bold{
+    font-family: CerebriSansBold !important;
+}
+
+
+
+h1 {
+    font-size: 54px !important;
+    margin: 0 !important;
+}
+
+h2{
+    font-size: 38px !important;
+    margin: 0 !important;
+}
+
+h3{
+    font-size: 34px !important;
+}
+
+h4{
+    font-size: 19px !important;
+}
+
+h5{
+    font-size: 14px !important;
+    
+}
+
+h6{
+    font-size: 300px !important;
+    
+}
+
+p{
+    font-size: 13px !important;
+}
+
+.light{
+    font-weight: lighter;
+}
+.bold{
+    font-weight: bold;
+}
+
+.w-100{
+    width: 100%;
+}
+.w-90{
+    width: 90%;
+}
+.w-80{
+    width: 80%;
+}
+.w-85{
+    width: 85%;
+}
+.w-70{
+    width: 70%;
+}
+.w-60{
+    width: 60%;
+}
+.w-50{
+    width: 50%;
+}
+.w-40{
+    width: 40%;
+}
+.w-30{
+    width: 30%;
+}
+.w-20{
+    width: 20%;
+}
+.w-10{
+    width: 10%;
+}
+.w-5{
+    width: 5%;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+
+.box-shadow-sm{
+    box-shadow: 0px 4px 22px -11px;
+}
+
+.rounded-xl {
+    border-radius: 45px !important;
+}
+.rounded-lg {
+    border-radius: 30px !important;
+}
+.rounded-md{
+    border-radius: 25px !important;
+}
+.rounded-sm{
+    border-radius: 20px !important;
+}
+.rounded-xs{
+    border-radius: 10px !important;
+}
+.rounded-circle{
+    border-radius: 90px !important;
+}
+
+.rounded-left-md{
+    border-top-left-radius: 25px !important;
+    border-bottom-left-radius: 25px !important;
+}
+.rounded-right-md{
+    border-top-right-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+}
+
+.border-sm-white{
+    border: 2px solid #FFFFFF !important;
+}
+
+.bg-gradient-primary-grey{
+    background: linear-gradient(#FFFFFF, #D9D9D9);
+}
+.bg-gradient-grey{
+    background: linear-gradient(#F0F0F0, #D1D1D1);
+}
+
+.bg-white{
+    background-color: #FFFFFF;
+}
+
+.white{
+    color: #FFFFFF !important;
+}
+
+.grey{
+    color:#D1D1D1
+}
+
+.dark-grey{
+    color: #848484;
+}
+
+.blue{
+    color: #0A3A77;
+}
+
+.float{
+    float: left;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+.vertical-text{
+    transform: rotate(-90deg);
+    right: 0;
+}
+
+/* ================Landing Page Contact Style=============== */
+html,body{
+    font-family: CerebriSansBook !important;
+    background: linear-gradient(#FFFFFF, #D9D9D9) !important;
+    height: 100% !important;
+    margin: 0;
+    padding: 0;
+}
+
+.sobad-wrapper {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100% !important;
+}
