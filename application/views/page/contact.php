@@ -15,7 +15,7 @@
         <div class="container">
             <div class="col-12">
                 <div class="col-6 mr-auto ml-auto text-center">
-                    <img class="bg-light rounded-circle mt-5" src="<?= base_url('assets') ?>/img/sobad-logo-circle.png" alt="" style="width: 80px;">
+                    <img class="bg-white rounded-circle mt-5" src="<?= base_url('assets') ?>/img/sobad-logo-circle.png" alt="" style="width: 80px;">
                     <p class="white">@soloabadi</p>
                 </div>
                 <div class="col-md-6 mt-5 mr-auto ml-auto text-center">
