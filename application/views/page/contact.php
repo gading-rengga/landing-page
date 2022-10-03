@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="wrapper bg-contact" style="<?= base_url("assets/img/bg-contact.png"); ?>">
+    <div class="wrapper bg-contact" style="background-image:url(<?= base_url("assets/img/bg-contact.png"); ?>)">
         <div class="container">
             <div class="col-12">
                 <div class="col-6 mr-auto ml-auto text-center">
