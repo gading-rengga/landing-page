@@ -5,6 +5,6 @@ class Antropometrikit extends CI_Controller
 {
     public function index()
     {
-        $this->load->view('page/landing-page');
+        $this->load->view('page/antropometrikit');
     }
 }

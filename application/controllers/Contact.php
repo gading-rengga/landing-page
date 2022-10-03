@@ -5,6 +5,6 @@ class Contact extends CI_Controller
 {
     public function index()
     {
-        redirect('https://info.soloabadi.com/contact');
+        $this->load->view('page/contact');
     }
 }
