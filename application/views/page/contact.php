@@ -23,7 +23,7 @@
                     <a href="https://soloabadi.com/kursi-antropometri/" class="btn btn-white border-sm-white white rounded-md w-100 mb-3" target="_blank">Kursi Antropometri</a>
                     <a href="https://soloabadi.com/metrisis-idn/" class="btn btn-white border-sm-white white rounded-md w-100 mb-3" target="_blank">Metrisis</a>
                     <a href="https://soloabadi.com/stunting-kit-edition/" class="btn btn-white border-sm-white white rounded-md w-100 mb-3" target="_blank">StuntingKit</a>
-                    <a href="#" class="btn btn-white border-sm-white white rounded-md w-100 mb-3" target="_blank">Marketplace</a>
+                    <a href="https://soloabadi.com/marketplace-id/" class="btn btn-white border-sm-white white rounded-md w-100 mb-3" target="_blank">Marketplace</a>
                     <a href="https://wa.me/6285100888111" class="btn btn-white border-sm-white white rounded-md w-100 mb-3" target="_blank">Kontak</a>
                 </div>
             </div>
