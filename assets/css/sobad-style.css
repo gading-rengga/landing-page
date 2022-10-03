@@ -390,8 +390,8 @@ button.bg-light:hover {
 
 /* ================Landing Page Contact Style=============== */
 .wrapper{
-    background: url("https://info.soloabadi.com/assets/img/bg-contact.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
+    background: url("/img/bg-contact.png") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100% !important;
 }
