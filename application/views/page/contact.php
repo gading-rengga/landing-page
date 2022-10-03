@@ -19,12 +19,12 @@
                     <p class="white">@soloabadi</p>
                 </div>
                 <div class="col-md-6 mt-5 mr-auto ml-auto text-center">
-                    <button class="btn btn-white border-sm-white white rounded-md w-100 mb-3">Light</button>
-                    <button class="btn btn-white border-sm-white white rounded-md w-100 mb-3">Kursi Antropometri</button>
-                    <button class="btn btn-white border-sm-white white rounded-md w-100 mb-3">Metrisis</button>
-                    <button class="btn btn-white border-sm-white white rounded-md w-100 mb-3">StuntingKit</button>
-                    <button class="btn btn-white border-sm-white white rounded-md w-100 mb-3">Marketplace</button>
-                    <button class="btn btn-white border-sm-white white rounded-md w-100 mb-3">Kontak</button>
+                    <a href="#" class="btn btn-white border-sm-white white rounded-md w-100 mb-3" target="_blank">Light</a>
+                    <a href="#" class="btn btn-white border-sm-white white rounded-md w-100 mb-3" target="_blank">Kursi Antropometri</a>
+                    <a href="#" class="btn btn-white border-sm-white white rounded-md w-100 mb-3" target="_blank">Metrisis</a>
+                    <a href="#" class="btn btn-white border-sm-white white rounded-md w-100 mb-3" target="_blank">StuntingKit</a>
+                    <a href="#" class="btn btn-white border-sm-white white rounded-md w-100 mb-3" target="_blank">Marketplace</a>
+                    <a href="#" class="btn btn-white border-sm-white white rounded-md w-100 mb-3" target="_blank">Kontak</a>
                 </div>
             </div>
             <div class="col-md-12  mr-auto ml-auto text-center">
