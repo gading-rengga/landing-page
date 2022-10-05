@@ -10,14 +10,15 @@
 	<link rel="stylesheet" href="<?= base_url('assets') ?>/css/sobad-style.css">
 	<link rel="stylesheet" href="<?= base_url('assets') ?>/bootstrap-4/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?= base_url('assets') ?>/plugin/owl-carousel/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 	<div class="main">
-		<div class="container-fluid mh-100">
-			<div class="col-md-12 p-0 ">
+		<div class="container-fluid p-0">
+			<div class="col-12 p-0 mh-100">
 				<div class="content col-md-6 ml-auto mr-auto  p-0">
-					<div class="mt-4 card-pc">
+					<div class="pt-4 card-pc">
 						<div class="card bg-gradient-grey border-0 rounded-xl box-shadow-sm">
 							<div class="row m-0 align-items-end">
 								<div class="col-md-6 pr-3 pt-3 pl-5 pb-3">
@@ -38,25 +39,25 @@
 						</div>
 					</div>
 					<!-- ==========Content Mobile============ -->
-					<div class="card-mobile mt-4">
+					<div class="card-mobile pt-2">
 						<div class="col">
 							<div class="p-lg">
 								<h1 class="regular">Paket</h1>
 								<h2 class="bold blue">Antropometri</h2>
-								<div class="mt-1">
+								<div class="pt-1">
 									<p class="regular dark-grey">Untuk tutorial cara penggunaan,
 										pemasangan & pelepasan produk kami
 										Silahkan pilih tutorial di bawah ini ya </p>
 								</div>
 							</div>
-							<div class="card bg-gradient-grey border-0 rounded-xl box-shadow-sm">
+							<div class="card bg-gradient-grey border-0 rounded-xl">
 								<div class="pl-3 pr-3 pt-3 mb-0">
 									<img class="w-90" src="<?= base_url('assets') ?>/img/model-board.png" alt="">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="mt-4  mr-auto">
+					<div class="pt-2  mr-auto">
 						<div class="carousel owl-carousel">
 							<!-- =============Stadiometer================= -->
 							<div class="m-3">
@@ -66,13 +67,14 @@
 									</div>
 								</div>
 								<div class="btn-group w-100 mt-2">
-									<button type="button" class="btn bg-light rounded-xs dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+									<button type="button" class="btn bg-light rounded-md dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
 										<div class="row">
 											<div class="col-6 text-left">
 												<p class="m-0 p-0">Portable</p>
 												<h5 class="blue m-0 p-0 bold">Stadiometer</h5>
 											</div>
-											<div class="col-6 icon"><img class="btn-icon" src="<?= base_url('assets') ?>/img/btn-icon.png" alt="">
+											<div class="col-6 icon">
+												<div class="bg-blue rounded-circle content-icon ml-auto"><i onclick="clicked(this)" class="fa fa-arrow-down" aria-hidden="true"></div></i>
 											</div>
 										</div>
 									</button>
@@ -94,13 +96,14 @@
 									</div>
 								</div>
 								<div class="btn-group w-100 mt-2">
-									<button type="button" class="btn bg-light rounded-xs dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+									<button type="button" class="btn bg-light rounded-md dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
 										<div class="row">
 											<div class="col-6 text-left">
 												<p class="m-0 p-0">Infantometer</p>
 												<h5 class="blue m-0 p-0 bold">Board.</h5>
 											</div>
-											<div class="col-6 icon"><img class="btn-icon" src="<?= base_url('assets') ?>/img/btn-icon.png" alt="">
+											<div class="col-6 icon">
+												<div class="bg-blue rounded-circle content-icon ml-auto"><i onclick="clicked(this)" class="fa fa-arrow-down" aria-hidden="true"></div></i>
 											</div>
 										</div>
 									</button>
@@ -122,13 +125,14 @@
 									</div>
 								</div>
 								<div class="btn-group w-100 mt-2">
-									<button type="button" class="btn bg-light rounded-xs dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+									<button type="button" class="btn bg-light rounded-md dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
 										<div class="row">
 											<div class="col-6 text-left">
 												<p class="m-0 p-0">Infantometer</p>
 												<h5 class="blue m-0 p-0 bold">Portable.</h5>
 											</div>
-											<div class="col-6 icon"><img class="btn-icon" src="<?= base_url('assets') ?>/img/btn-icon.png" alt="">
+											<div class="col-6 icon">
+												<div class="bg-blue rounded-circle content-icon ml-auto"><i onclick="clicked(this)" class="fa fa-arrow-down" aria-hidden="true"></div></i>
 											</div>
 										</div>
 									</button>
@@ -147,13 +151,14 @@
 									</div>
 								</div>
 								<div class="btn-group w-100 mt-2">
-									<button type="button" class="btn bg-light rounded-xs dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+									<button type="button" class="btn bg-light rounded-md dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
 										<div class="row">
 											<div class="col-6 text-left">
 												<p class="m-0 p-0">Digital</p>
 												<h5 class="blue m-0 p-0 bold">Baby Scale.</h5>
 											</div>
-											<div class="col-6 icon"><img class="btn-icon" src="<?= base_url('assets') ?>/img/btn-icon.png" alt="">
+											<div class="col-6 icon">
+												<div class="bg-blue rounded-circle content-icon ml-auto"><i onclick="clicked(this)" class="fa fa-arrow-down" aria-hidden="true"></div></i>
 											</div>
 										</div>
 									</button>
@@ -172,13 +177,14 @@
 									</div>
 								</div>
 								<div class="btn-group w-100 mt-2">
-									<button type="button" class="btn bg-light rounded-xs dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+									<button type="button" class="btn bg-light rounded-md dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
 										<div class="row">
 											<div class="col-6 text-left">
 												<p class="m-0 p-0">Digital</p>
 												<h5 class="blue m-0 p-0 bold">Weight Scale.</h5>
 											</div>
-											<div class="col-6 icon"><img class="btn-icon" src="<?= base_url('assets') ?>/img/btn-icon.png" alt="">
+											<div class="col-6 icon">
+												<div class="bg-blue rounded-circle content-icon ml-auto"><i onclick="clicked(this)" class="fa fa-arrow-down" aria-hidden="true"></div></i>
 											</div>
 										</div>
 									</button>
@@ -197,13 +203,14 @@
 									</div>
 								</div>
 								<div class="btn-group w-100 mt-2">
-									<button type="button" class="btn bg-light rounded-xs dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+									<button type="button" class="btn bg-light rounded-md dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
 										<div class="row">
 											<div class="col-6 text-left">
-												<p class="m-0 p-0">Body Measuring Tape</p>
-												<h5 class="blue m-0 p-0 bold">Lila</h5>
+												<p class="m-0 p-0">Body </p>
+												<h5 class="blue m-0 p-0 bold">Measuring Tape</h5>
 											</div>
-											<div class="col-6 icon"><img class="btn-icon" src="<?= base_url('assets') ?>/img/btn-icon.png" alt="">
+											<div class="col-6 icon">
+												<div class="bg-blue rounded-circle content-icon ml-auto"><i onclick="clicked(this)" class="fa fa-arrow-down" aria-hidden="true"></div></i>
 											</div>
 										</div>
 									</button>
@@ -215,15 +222,15 @@
 								</div>
 							</div>
 						</div>
-						<div class="mr-auto ml-auto manufac">
-							<div class="text-center pl-lg-5 pr-lg-5">
-								<p class="m-0">Manufactured by <br>
-									PT Solo Abadi Indonesia <br>
-									www.soloabadi.com</p>
-							</div>
-						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+		<div class="mr-auto ml-auto manufac">
+			<div class="text-center pl-lg-5 pr-lg-5">
+				<p class="m-0">Manufactured by <br>
+					PT Solo Abadi Indonesia <br>
+					www.soloabadi.com</p>
 			</div>
 		</div>
 	</div>
@@ -232,6 +239,7 @@
 	<script src="<?= base_url('assets') ?>/bootstrap-4/js/bootstrap.min.js"></script>
 	<script src="<?= base_url('assets') ?>/plugin/owl-carousel/js/owl.carousel.min.js"></script>
 	<script src="<?= base_url('assets') ?>/js/carousel.js"></script>
+	<script src="<?= base_url('assets') ?>/js/animate.js"></script>
 </body>
 
 </html>

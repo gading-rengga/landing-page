@@ -1,6 +1,8 @@
 $(".carousel").owlCarousel({
     loop: true,
     autoplay: true,
+    navigation: true,
+    navText: ["<", ">"],
     responsive: {
         0: {
             items: 1

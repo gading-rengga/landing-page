@@ -12,28 +12,41 @@
 </head>
 
 <body>
-    <div class="sobad-wrapper" style="background-image:url(<?= base_url("assets/img/bg-contact.png"); ?>)">
-        <div class="container">
-            <div class="col-12">
-                <div class="col-6 mr-auto ml-auto text-center">
-                    <img class="bg-white rounded-circle mt-5" src="<?= base_url('assets') ?>/img/sobad-logo-circle.png" alt="" style="width: 80px;">
-                    <p class="white">@soloabadi</p>
-                </div>
-                <div class="col-md-6 mt-5 mr-auto ml-auto text-center">
-                    <a href="https://soloabadi.com/light-id/" class="btn  border-sm-white white rounded-md w-100 mb-3" target="_blank">Light</a>
-                    <a href="https://soloabadi.com/kursi-antropometri/" class="btn  border-sm-white white rounded-md w-100 mb-3" target="_blank">Kursi Antropometri</a>
-                    <a href="https://soloabadi.com/metrisis-idn/" class="btn  border-sm-white white rounded-md w-100 mb-3" target="_blank">Metrisis</a>
-                    <a href="https://soloabadi.com/stunting-kit-edition/" class="btn  border-sm-white white rounded-md w-100 mb-3" target="_blank">StuntingKit</a>
-                    <a href="https://soloabadi.com/marketplace-id/" class="btn  border-sm-white white rounded-md w-100 mb-3" target="_blank">Marketplace</a>
-                    <a href="https://wa.me/6285100888111" class="btn  border-sm-white white rounded-md w-100 mb-3" target="_blank">Kontak</a>
+    <div class="sobad-wrapper">
+        <div class="container " style="margin-bottom: 7%;">
+            <div class="col-md-12 p-0">
+                <div class="sobad-background"></div>
+                <div class="col-md-8 mr-auto ml-auto text-center">
+                    <div class="mt-3 mb-xl-5">
+                        <img class="bg-white rounded-circle mt-5" src="<?= base_url('assets') ?>/img/sobad-logo-circle.png" alt="" style="width: 96px; height:96px">
+                        <h4 class="white pt-3 pb-3">@soloabadi</h4>
+                    </div>
+                    <div class="mb-3 ">
+                        <a href="https://soloabadi.com/en/light/" class="btn border-sm-white white rounded-xl w-100 p-3 btn-action" target="_blank">Light</a>
+                    </div>
+                    <div class="mb-3">
+                        <a href="https://soloabadi.com/en/antropometri-chair/" class="btn  border-sm-white white rounded-xl w-100 p-3  btn-action " target="_blank">Kursi Antropometri</a>
+                    </div>
+                    <div class="mb-3">
+                        <a href="https://soloabadi.com/en/metrisis-en/" class="btn  border-sm-white white rounded-xl w-100 p-3  btn-action " target="_blank">Metrisis</a>
+                    </div>
+                    <div class="mb-3">
+                        <a href="https://soloabadi.com/stunting-kit-edition/" class="btn  border-sm-white white rounded-xl w-100 p-3  btn-action " target="_blank">StuntingKit</a>
+                    </div>
+                    <div class="mb-3">
+                        <a href="https://soloabadi.com/en/marketplace-en/" class="btn  border-sm-white white rounded-xl w-100 p-3  btn-action " target="_blank">Marketplace</a>
+                    </div>
+                    <div class="mb-3">
+                        <a href="https://soloabadi.com/hubungi-kami/" class="btn  border-sm-white white rounded-xl w-100 p-3  btn-action " target="_blank">Kontak</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-12  mr-auto ml-auto text-center">
-                <span><a class="m-2" href="https://www.facebook.com/officialsoloabadi/" target="_blank"> <img src="<?= base_url('assets') ?>/img/fb.png" alt=""></a></span>
-                <span><a class="m-2" href="https://www.instagram.com/soloabadi/" target="_blank"> <img src="<?= base_url('assets') ?>/img/ig.png" alt=""></a></span>
-                <span><a class="m-2" href="https://wa.me/6285100888111" target="_blank"> <img src="<?= base_url('assets') ?>/img/wa.png" alt=""></a></span>
-                <span><a class="m-2" href="https://www.youtube.com/c/SoloAbadi" target="_blank"> <img src="<?= base_url('assets') ?>/img/yt.png" alt=""></a></span>
-                <span><a class="m-2" href="mailto:admin@soloabadi.com" target="_blank"> <img src="<?= base_url('assets') ?>/img/mail.png" alt=""></a></span>
+            <div class="col-md-12  mr-auto ml-auto text-center mb-5">
+                <span class="btn-sosmed"><a class="m-2" href="https://www.facebook.com/officialsoloabadi/" target="_blank"><object class="icon-sosmed" data="<?= base_url('assets') ?>/img/ic-fb.svg" type=""></object></a></span>
+                <span><a class="m-2" href="https://www.instagram.com/soloabadi/" target="_blank"><object class="icon-sosmed" data="<?= base_url('assets') ?>/img/ic-ig.svg" type=""></object></a></span>
+                <span><a class="m-2" href="https://wa.me/6285100888111" target="_blank"> <object class="icon-sosmed" data="<?= base_url('assets') ?>/img/ic-wa.svg" type=""></object></a></span>
+                <span><a class="m-2" href="https://www.youtube.com/c/SoloAbadi" target="_blank"><object class="icon-sosmed" data="<?= base_url('assets') ?>/img/ic-yt.svg" type=""></object></a></span>
+                <span><a class="m-2" href="mailto:admin@soloabadi.com" target="_blank"><object class="icon-sosmed" data="<?= base_url('assets') ?>/img/ic-mail.svg" type=""></object></a></span>
             </div>
         </div>
     </div>

@@ -15,6 +15,21 @@
 }
 
 
+.sobad-background {
+    position: fixed;
+    inset: 0px;
+    z-index: -1;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-image: url(../img/bg-contact.png) !important;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
 
 h1 {
     font-size: 54px !important;
@@ -31,21 +46,21 @@ h3{
 }
 
 h4{
-    font-size: 19px !important;
+    font-size: 18px !important;
 }
 
 h5{
-    font-size: 14px !important;
+    font-size: 17px !important;
     
 }
 
 h6{
-    font-size: 300px !important;
+    font-size: 16px !important;
     
 }
 
 p{
-    font-size: 13px !important;
+    font-size: 14px !important;
 }
 
 .light{
@@ -190,16 +205,18 @@ p{
 }
 
 /* ================Landing Page Contact Style=============== */
-html,body{
-    font-family: CerebriSansBook !important;
-    background: linear-gradient(#FFFFFF, #D9D9D9) !important;
-    height: 100% !important;
-    margin: 0;
-    padding: 0;
+
+.icon-sosmed{
+    filter: invert(1);
+    width: 32px;
+    height: 32px;
 }
 
-.sobad-wrapper {
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    height: 100% !important;
+.icon-sosmed:hover{
+    transform: scale(1.1);
+}
+
+.btn-action:hover{
+    background-color: #FFFFFF;
+    color:black !important
 }

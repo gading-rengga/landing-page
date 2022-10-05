@@ -163,6 +163,10 @@ p{
     background-color: #FFFFFF;
 }
 
+.bg-blue{
+    background-color: #0A3A77;
+}
+
 .white{
     color: #FFFFFF !important;
 }
@@ -191,10 +195,10 @@ p{
     position: relative;
 }
 
-.vertical-text{
-    transform: rotate(-90deg);
-    right: 0;
+.vertical-bottom{
+    vertical-align: bottom;
 }
+
 
 /* ===========Sobad Style=========== */
 
@@ -211,7 +215,7 @@ p{
 
 .main
 {         
-    position:fixed;
+    position:relative;
     top:0px;
     bottom:0px;
     left:0px;
@@ -236,13 +240,26 @@ p{
     flex-wrap: wrap;
 }
 
+.content-icon{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 34px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
 /* OwlCarousel Custom Style */
 .owl-item{
-    height: 30vw !important;
+    height: 300px !important;
 }
 
 .manufac{
-margin-top: -150px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .btn:hover{
@@ -281,44 +298,64 @@ button.bg-light:hover {
     background-color: #FFFFFF !important;
 }
 
+.dropdown-item:hover{
+    background-color: #0A3A77 !important;
+    color: #FFFFFF !important;
+}
+
+
+
 /* ===========Responsive Mobile Style============== */
 
 @media only screen and (max-width: 475px) {
+    html,body{
+        font-family: CerebriSansBook !important;
+    background: linear-gradient(#FFFFFF, #D9D9D9) !important;
+    height: fit-content !important;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    }
 
+
+    h1 {
+        font-size: 50px !important;
+        margin: 0 !important;
+    }
+    
+    h2{
+        font-size: 38px !important;
+        margin: 0 !important;
+    }
+    
+    h3{
+        font-size: 34px !important;
+    }
+    
+    h4{
+        font-size: 19px !important;
+    }
+    
     h5{
-        font-size: 13px !important;
+        font-size: 14px !important;
+        
+    }
+    
+    h6{
+        font-size: 300px !important;
         
     }
     
     p{
-        font-size: 11px !important;
-    }
-    html,body{
-        font-family: CerebriSansBook !important;
-        background: linear-gradient(#FFFFFF, #D9D9D9) !important;
-        height: 232vw !important;
-        margin: 0;
-        padding: 0;
+        font-size: 13px !important;
     }
 
     .card-pc {
         display: none;
     }
 
-    .owl-item{
-        height: 100vw !important;
-    }
-
     .content{
         width: 90% !important;
-    }
-
-    .main{         
-    position:fixed;
-    top:0px;
-    bottom:0px;
-    left:0px;
-    right:0px;
     }
 
     .image-slide {
@@ -327,13 +364,25 @@ button.bg-light:hover {
     }
 
     .manufac{
-        margin-top: -100px;
+        display: none;
         }
         
+    .dropdown-item{
+        padding: 0.25rem 0.5rem !important;
+        text-align: center !important;
+    }
 }
 
 /* ===========Responsive Tablet Style============== */
 @media only screen and (max-width: 900px) and (min-width:476px) {
+    html,body{
+        font-family: CerebriSansBook !important;
+    background: linear-gradient(#FFFFFF, #D9D9D9) !important;
+    height: fit-content !important;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    }
     .card-mobile{
         display: none;
     }
@@ -357,23 +406,34 @@ button.bg-light:hover {
 /* ===========Responsive Laptop Style============== */
 @media only screen and (min-width: 901px) {
     .card-mobile{
-        display: none;
+        display: none !important;
     }
-
-   
+    .dropdown-item{
+        width: 189px !important;
+        text-align: center !important;
+    }
 }
 
 /* ===========Responsive PC Style============== */
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1700px) {
+    html,body{
+        font-family: CerebriSansBook !important;
+    background: linear-gradient(#FFFFFF, #D9D9D9) !important;
+    height: fit-content !important;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    }
     .content{
         max-width: 60% !important;
         margin-left: auto !important;
         margin-right: auto !important;
         margin-top: 50px;
     }
+
     .owl-item{
-        height: 40vw !important;
+        height: 500px !important;
     }
 
     .image-slide{
@@ -383,6 +443,10 @@ button.bg-light:hover {
 
     .card-mobile{
         display: none;
+    }
+    .dropdown-item{
+        width: 18vw !important;
+        text-align: center !important;
     }
 
 }
