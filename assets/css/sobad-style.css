@@ -488,35 +488,36 @@ button.bg-light:hover {
     /* image Style */
     .img-stadio{
         margin-left: -15px;
-        width: 132px !important;
+        width: 100% !important;
         height: 125px;
         margin-top: -1px;
         margin-bottom: -2px;
     }
 
-    .img-board{
+    .img-board {
         margin-bottom: -8px;
-        width: 130px !important;
-        height: 128px !important;
-        border-radius: 45px;
+        width: 100% !important;
+        height: 130px;
+        border-radius: 35px;
     }
 
-    .img-port{  
-        margin-left: 15px;
-        width: 120px !important;
-        height: 121px !important;
+    .img-port {
+        margin-left: 9px;
+        width: 100% !important;
+        height: 123px !important;
         margin-bottom: unset;
         margin-top: unset;
     }
 
     .img-baby{
-        width: 157px !important;
-        margin-bottom: -13px;
+        width: 118% !important;
+            height: 123px;
+        margin-bottom: unset;
         margin-left: unset;
     }
 
     .img-weight{
-        width: 130px !important;
+        width: 100% !important;
         height: 130px !important;
         margin-left: 3px;
         margin-bottom: -10px;
@@ -524,8 +525,9 @@ button.bg-light:hover {
     }
 
     .img-lila {
-        width: 106px !important;
-        margin-left: 10px;
+        width: 100% !important;
+        margin-left: 0px;
+        height: 122px;
     }
 
     .btn-arrow-next{
