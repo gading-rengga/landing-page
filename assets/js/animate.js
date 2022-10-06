@@ -1,5 +1,5 @@
 
 function clicked(x) {
-    x.classList.toggle('fa-arrow-down');
-    x.classList.toggle('fa-arrow-right');
+    x.classList.toggle('btn-arrow-down');
+    x.classList.toggle('btn-arrow-next');
 }
