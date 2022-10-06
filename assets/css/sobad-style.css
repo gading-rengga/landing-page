@@ -26,7 +26,7 @@ html,body{
 h1 {
     font-size: 54px !important;
     margin: 0 !important;
-    line-height: 35px !important;
+    line-height: 0.7 !important;
 }
 
 h2{
@@ -258,45 +258,49 @@ p{
 
 
 /* Image style */
+.box-img {
+    width: 100% !important;
+    height: 26vh !important;
+    max-height: 100%;
+}
+
 .img-stadio {
-    width: 189px !important;
-    height: 185px;
-    margin-left: -20px;
-    margin-top: -2px;
-    margin-bottom: -2px;
+    width: 100% !important;
+    height: 26.5vh;
+    margin-top: -0.1rem;
+    margin-bottom: 5%;
+    margin-left: -0.9rem;
 }
 
 .img-board {
-    width: 187px !important;
-    height: 191px;
-    margin-bottom: -11px;
+    width: 100%!important;
+    height: auto;
+    margin-top: 15%;
     border-radius: 40px;
 }
 
 .img-port {
-    width: 197px !important;
-    margin-bottom: 35px;
-    margin-top: 48px;
+    width: 100%!important;
+    height: auto;
+    margin-top: 26%;
+    margin-left: 6%;
 }
-
 .img-baby {
-    width: 207px !important;
-    margin-left: 17px;
+    width: 120%!important;
+    height: auto;
+    
 }
 
 .img-weight {
-    width: 191px !important;
-    margin-bottom: -32px;
-}
-
-.image-slide {
-    width: 168px !important;
-    margin-top: 31px;
+    width: 95%!important;
+    height: auto;
+    margin-left: 5%;
 }
 
 .img-lila {
-    width: 160px !important;
-    margin-left: 12px;
+    width: 85%!important;
+    height: auto;
+
 }
 .btn-arrow-next{
     content:url("../img/btn-arrow-next.png");
@@ -476,17 +480,17 @@ button.bg-light:hover {
         display: none;
         }
         
-    .dropdown-item{
-        width: 100px !important;
-        padding: 5px 1px 1px 1px !important;
-        text-align: center !important;
-    }
+        .dropdown-item {
+            width: 109px !important;
+            padding: 5px 1px 1px 1px !important;
+            text-align: center !important;
+        }
     .dropdown-menu.sobad-dropdown.show {
         left: 15px !important;
     }
 
     /* image Style */
-    .img-stadio{
+    /* .img-stadio{
         margin-left: -15px;
         width: 100% !important;
         height: 125px;
@@ -528,6 +532,41 @@ button.bg-light:hover {
         width: 100% !important;
         margin-left: 0px;
         height: 122px;
+    } */
+
+    .box-img {
+        width: 100% !important;
+        height: 140px !important;
+        max-height: 100%;
+    }
+
+    .img-stadio {
+        width: 100% !important;
+        height: 144px;
+        margin-top: -0.1rem;
+        margin-bottom: 5%;
+        margin-left: -0.9rem;
+    }
+
+    .img-board {
+        width: 100%!important;
+        height: 125px;
+        border-radius: 33px;
+    }
+
+    .img-baby {
+        width: 120%!important;
+        height: auto;
+    }
+
+    .img-weight {
+        width: 100%!important;
+        height: auto;
+    }
+
+    .img-lila {
+        width: 92%!important;
+        height: auto;
     }
 
     .btn-arrow-next{
@@ -544,7 +583,7 @@ button.bg-light:hover {
 }
 
 /* ===========Responsive Tablet Style============== */
-@media only screen and (max-width: 900px) and (min-width:476px) {
+@media only screen and (max-width: 864px) and (min-width:476px) {
     html,body{
         font-family: CerebriSansBook !important;
     background: linear-gradient(#FFFFFF, #D9D9D9) !important;
@@ -573,10 +612,41 @@ button.bg-light:hover {
     .owl-item{
         height: 100vw !important;
     }
+
+    .box-img {
+        width: 100% !important;
+        height: 176px !important;
+        max-height: 100%;
+    }
+
+    .img-stadio {
+        width: 100% !important;
+        height: 180px;
+        margin-top: -0.1rem;
+        margin-bottom: 5%;
+        margin-left: -0.9rem;
+    }
+
+    .img-board {
+        width: 100%!important;
+        height: 156px;
+        border-radius: 40px;
+    }
+
+
+    .owl-next {
+        right: -15px;
+        top: 33%;
+    }
+
+    .owl-prev {
+        left: -15px;
+        top: 33%;
+    }
 }
 
 /* ===========Responsive Laptop Style============== */
-@media only screen and (min-width: 901px) {
+@media only screen and (min-width: 865px) {
     .card-mobile{
         display: none !important;
     }
@@ -588,7 +658,7 @@ button.bg-light:hover {
 
 /* ===========Responsive PC Style============== */
 
-@media only screen and (min-width: 1700px) {
+@media only screen and (min-width: 1720px) {
     html,body{
         font-family: CerebriSansBook !important;
     background: linear-gradient(#FFFFFF, #D9D9D9) !important;
@@ -648,50 +718,37 @@ button.bg-light:hover {
     .card-mobile{
         display: none;
     }
-    .dropdown-item{
-        width: 217px !important;
+    .dropdown-item {
+        width: 182% !important;
         text-align: center !important;
     }
     .owl-nav{
         display: none !important;
     }
 
+    .cobtent-title {
+        padding-right: 100px;
+    }
+
+    .box-img {
+        width: 100% !important;
+        height: 27vh !important;
+        max-height: 100%;
+    }
+
     .img-stadio {
-        width: 249px !important;
-        height: 273px;
-        margin-left: -20px;
+        width: 100% !important;
+        height: 27.5vh;
+        margin-top: -0.1rem;
+        margin-bottom: 5%;
+        margin-left: -0.9rem;
     }
 
     .img-board {
-        width: 249px !important;
-        height: 293px;
-        margin-bottom: -20px;
+        width: 100%!important;
+        height: auto;
+        margin-top:14%;
         border-radius: 40px;
-    }
-
-    .img-port {
-        width: 263px !important;
-        margin-bottom: 39px;
-        margin-top: 103px;
-    }
-
-    .img-baby {
-        width: 272px !important;
-        margin-left: 13px;
-        margin-top: 38px;
-    }
-
-    .img-weight {
-        width: 259px !important;
-        margin-bottom: -15px;
-    }
-
-    .img-lila {
-        width: 242px !important;
-    }
-
-    .cobtent-title {
-        padding-right: 100px;
     }
 
 }

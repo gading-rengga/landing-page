@@ -11,11 +11,11 @@ $(".carousel").owlCarousel({
         300: {
             items: 2
         },
+        700: {
+            items: 3
+        },
         1000: {
             items: 3
         },
-        1920: {
-            items: 4
-        }
     }
 });

@@ -62,8 +62,8 @@
 						<div class="carousel owl-carousel">
 							<!-- =============Stadiometer================= -->
 							<div class="m-3">
-								<div class="card rounded-md bg-gradient-primary-grey border-0 box-shadow-sm h-100">
-									<div class="card-header p-0 rounded-md h-100">
+								<div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
+									<div class="card-header   p-0 rounded-md h-100">
 										<img class="img-stadio" src="<?= base_url('assets') ?>/img/stadiometer.png" alt="">
 									</div>
 								</div>
@@ -93,8 +93,8 @@
 							</div>
 							<!-- =============Infantometer Board================= -->
 							<div class="m-3">
-								<div class="card rounded-md bg-gradient-primary-grey border-0 box-shadow-sm h-100">
-									<div class="card-header p-0 rounded-md h-100">
+								<div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
+									<div class="card-header  p-0 rounded-md h-100">
 										<img class="img-board" src="<?= base_url('assets') ?>/img/board.png" alt="">
 									</div>
 								</div>
@@ -124,8 +124,8 @@
 							</div>
 							<!-- =============Infantometer Port================= -->
 							<div class="m-3">
-								<div class="card rounded-md bg-gradient-primary-grey border-0 box-shadow-sm h-100">
-									<div class="card-header p-0 rounded-md h-100">
+								<div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
+									<div class="card-header  p-0 rounded-md h-100">
 										<img class="img-port" src="<?= base_url('assets') ?>/img/infantometer-port.png" alt="">
 									</div>
 								</div>
@@ -152,8 +152,8 @@
 							</div>
 							<!-- =============Baby Scale================= -->
 							<div class="m-3">
-								<div class="card rounded-md bg-gradient-primary-grey border-0 box-shadow-sm h-100">
-									<div class="card-header p-0 rounded-md h-100">
+								<div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
+									<div class="card-header  p-0 rounded-md h-100">
 										<img class="img-baby" src="<?= base_url('assets') ?>/img/baby-try.png" alt="">
 									</div>
 								</div>
@@ -180,8 +180,8 @@
 							</div>
 							<!-- =============Weight Scale================= -->
 							<div class="m-3">
-								<div class="card rounded-md bg-gradient-primary-grey border-0 box-shadow-sm h-100">
-									<div class="card-header p-0 rounded-md h-100">
+								<div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
+									<div class="card-header  p-0 rounded-md h-100">
 										<img class="img-weight" src="<?= base_url('assets') ?>/img/h-timbangan dewasa.png" alt="">
 									</div>
 								</div>
@@ -208,8 +208,8 @@
 							</div>
 							<!-- =============LILA================= -->
 							<div class="m-3">
-								<div class="card rounded-md bg-gradient-primary-grey border-0 box-shadow-sm h-100">
-									<div class="card-header p-0 rounded-md h-100">
+								<div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
+									<div class="card-header  p-0 rounded-md h-100">
 										<img class="img-lila" src="<?= base_url('assets') ?>/img/lila.png" alt="">
 									</div>
 								</div>
