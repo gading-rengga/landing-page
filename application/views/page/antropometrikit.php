@@ -44,7 +44,7 @@
 							<div class="p-lg">
 								<h1 class="regular">Paket</h1>
 								<h2 class="bold blue">Antropometri</h2>
-								<div class="pt-1">
+								<div class="pt-1  sub-title">
 									<p class="regular dark-grey">Untuk tutorial cara penggunaan,
 										pemasangan & pelepasan produk kami
 										Silahkan pilih tutorial di bawah ini ya </p>
@@ -52,12 +52,14 @@
 							</div>
 							<div class="card bg-gradient-grey border-0 rounded-xl">
 								<div class="pl-3 pr-3 pt-3 mb-0">
-									<img class="w-90" src="<?= base_url('assets') ?>/img/model-board.png" alt="">
+									<img class="w-80" src="<?= base_url('assets') ?>/img/model-board.png" alt="">
 								</div>
 							</div>
 						</div>
 					</div>
+					<div class="owl-nav"></div>
 					<div class="pt-2  mr-auto">
+
 						<div class="carousel owl-carousel">
 							<!-- =============Stadiometer================= -->
 							<div class="m-3">
@@ -222,6 +224,7 @@
 								</div>
 							</div>
 						</div>
+
 					</div>
 				</div>
 			</div>

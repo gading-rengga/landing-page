@@ -250,8 +250,13 @@ p{
     text-align: center;
     vertical-align: bottom;
 }
+.sub-title{
+    padding-right:70px;
+}
 
-/* OwlCarousel Custom Style */
+
+
+/* ==============OwlCarousel Custom Style============ */
 .owl-item{
     height: 300px !important;
 }
@@ -265,6 +270,29 @@ p{
 .btn:hover{
     color:black !important;
 }
+
+
+.owl-nav,button{
+    border: none !important;
+    font-size: 40px;
+    background-color: unset !important;
+}
+
+.owl-prev, .owl-next {
+    position:absolute;
+}
+
+.owl-prev {
+    left: -15px;
+    top: 63%;
+}
+
+.owl-next {
+    right: -15px;
+    top: 63%;
+}
+
+
 
 
 
@@ -350,6 +378,15 @@ button.bg-light:hover {
         font-size: 13px !important;
     }
 
+    .main
+    {         
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    }
+
     .card-pc {
         display: none;
     }
@@ -383,6 +420,8 @@ button.bg-light:hover {
     margin: 0;
     padding: 0;
     }
+
+
     .card-mobile{
         display: none;
     }
@@ -411,6 +450,9 @@ button.bg-light:hover {
     .dropdown-item{
         width: 189px !important;
         text-align: center !important;
+    }
+    .owl-nav{
+        display: none !important;
     }
 }
 
@@ -447,6 +489,9 @@ button.bg-light:hover {
     .dropdown-item{
         width: 18vw !important;
         text-align: center !important;
+    }
+    .owl-nav{
+        display: none !important;
     }
 
 }
