@@ -413,7 +413,7 @@ button.bg-light:hover {
 
 /* ===========Responsive Mobile Style============== */
 
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 600px) {
     html,body{
         font-family: CerebriSansBook !important;
     background: linear-gradient(#FFFFFF, #D9D9D9) !important;
