@@ -536,13 +536,13 @@ button.bg-light:hover {
 
     .box-img {
         width: 100% !important;
-        height: 140px !important;
+        height: 127px !important;
         max-height: 100%;
     }
 
     .img-stadio {
         width: 100% !important;
-        height: 144px;
+        height: 130px;
         margin-top: -0.1rem;
         margin-bottom: 5%;
         margin-left: -0.9rem;
@@ -550,7 +550,7 @@ button.bg-light:hover {
 
     .img-board {
         width: 100%!important;
-        height: 125px;
+        height: 113px;
         border-radius: 33px;
     }
 
@@ -561,12 +561,12 @@ button.bg-light:hover {
 
     .img-weight {
         width: 100%!important;
-        height: auto;
+        height: 146px;
     }
 
     .img-lila {
         width: 92%!important;
-        height: auto;
+        height: 132px;
     }
 
     .btn-arrow-next{
