@@ -210,9 +210,10 @@ p{
     filter: invert(1);
     width: 32px;
     height: 32px;
+    pointer-events: none;
 }
 
-.icon-sosmed:hover{
+.link-sosmed:hover{
     transform: scale(1.1);
 }
 

@@ -42,11 +42,11 @@
                 </div>
             </div>
             <div class="col-md-12  mr-auto ml-auto text-center mb-5">
-                <span class="btn-sosmed"><a class="m-2" href="https://www.facebook.com/officialsoloabadi/" target="_blank"><object class="icon-sosmed" data="<?= base_url('assets') ?>/img/ic-fb.svg" type=""></object></a></span>
-                <span><a class="m-2" href="https://www.instagram.com/soloabadi/" target="_blank"><object class="icon-sosmed" data="<?= base_url('assets') ?>/img/ic-ig.svg" type=""></object></a></span>
-                <span><a class="m-2" href="https://wa.me/6285100888111" target="_blank"> <object class="icon-sosmed" data="<?= base_url('assets') ?>/img/ic-wa.svg" type=""></object></a></span>
-                <span><a class="m-2" href="https://www.youtube.com/c/SoloAbadi" target="_blank"><object class="icon-sosmed" data="<?= base_url('assets') ?>/img/ic-yt.svg" type=""></object></a></span>
-                <span><a class="m-2" href="mailto:admin@soloabadi.com" target="_blank"><object class="icon-sosmed" data="<?= base_url('assets') ?>/img/ic-mail.svg" type=""></object></a></span>
+                <a class="m-2 link-sosmed" href="https://www.facebook.com/officialsoloabadi/" target="_blank" style="display: inline-block;"><object class="icon-sosmed" data="<?= base_url('assets') ?>/img/ic-fb.svg" type="image/svg+xml"></object></a>
+                <a class="m-2 link-sosmed" href="https://www.instagram.com/soloabadi/" target="_blank" style="display: inline-block;"><object class="icon-sosmed" data="<?= base_url('assets') ?>/img/ic-ig.svg" type="image/svg+xml"></object></a>
+                <a class="m-2 link-sosmed" href="https://wa.me/6285100888111" target="_blank" style="display: inline-block;"> <object class="icon-sosmed" data="<?= base_url('assets') ?>/img/ic-wa.svg" type="image/svg+xml"></object></a>
+                <a class="m-2 link-sosmed" href="https://www.youtube.com/c/SoloAbadi" target="_blank" style="display: inline-block;"><object class="icon-sosmed" data="<?= base_url('assets') ?>/img/ic-yt.svg" type="image/svg+xml"></object></a>
+                <a class="m-2 link-sosmed" href="mailto:admin@soloabadi.com" target="_blank" style="display: inline-block;"><object class="icon-sosmed" data="<?= base_url('assets') ?>/img/ic-mail.svg" type="image/svg+xml"></object></a>
             </div>
         </div>
     </div>
