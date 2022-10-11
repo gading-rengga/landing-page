@@ -134,7 +134,7 @@ p{
     border-radius: 20px !important;
 }
 .rounded-xs{
-    border-radius: 10px !important;
+    border-radius: 17px !important;
 }
 .rounded-circle{
     border-radius: 90px !important;
@@ -255,6 +255,10 @@ p{
     padding-right:70px;
 }
 
+.btn-drop{
+    height: 45px;
+}
+
 
 
 /* Image style */
@@ -304,18 +308,22 @@ p{
 }
 .btn-arrow-next{
     content:url("../img/btn-arrow-next.png");
-    width: 35px !important;
-    height:35px !important;
+    width: 27px !important;
+    height:27px !important;
 }
 
 .btn-arrow-down{
     content:url("../img/btn-arrow-down.png");
-    width: 35px !important;
-    height: 35px !important;
+    width: 27px !important;
+    height: 27px !important;
 }
 
 .cobtent-title {
     padding-right: 25px;
+}
+
+.card-carousel {
+    margin: 9%;
 }
 
 
@@ -396,13 +404,21 @@ button.bg-light:hover {
     color: #FFFFFF !important;
 }
 
-.dropdown-item{
-    width: 162px !important;
-    padding: 5px 1px 1px 1px !important;
-    text-align: center !important;
-}
+
 .dropdown-menu.sobad-dropdown.show {
-    left: 15px !important;
+    width: 182px !important;
+    min-width: auto;
+}
+
+.dropdown-item {
+    width: 157px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0px !important;
+    height: 25px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
 }
 
 .dropdown-menu{
@@ -413,7 +429,7 @@ button.bg-light:hover {
 
 /* ===========Responsive Mobile Style============== */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 619px) {
     html,body{
         font-family: CerebriSansBook !important;
     background: linear-gradient(#FFFFFF, #D9D9D9) !important;
@@ -430,13 +446,13 @@ button.bg-light:hover {
 
 
     h1 {
-        font-size: 50px !important;
+        font-size: 64px !important;
         margin: 0 !important;
-        line-height: 31px !important;
+        line-height: 37px !important;
     }
     
     h2{
-        font-size: 38px !important;
+        font-size: 48px !important;
         margin: 0 !important;
     }
     
@@ -445,7 +461,7 @@ button.bg-light:hover {
     }
     
     h4{
-        font-size: 19px !important;
+        font-size: 14px !important;
     }
     
     h5{
@@ -478,71 +494,33 @@ button.bg-light:hover {
 
     .manufac{
         display: none;
-        }
-        
-        .dropdown-item {
-            width: 115px !important;
-            padding: 5px 1px 1px 1px !important;
-            text-align: center !important;
-        }
+    }
+
     .dropdown-menu.sobad-dropdown.show {
-        left: 15px !important;
+        width: 140px !important;
+        min-width: auto;
     }
 
-    /* image Style */
-    /* .img-stadio{
-        margin-left: -15px;
-        width: 100% !important;
-        height: 125px;
-        margin-top: -1px;
-        margin-bottom: -2px;
+    .dropdown-item {
+        width: 117px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding: 0px !important;
+        height: 25px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-around !important;
     }
-
-    .img-board {
-        margin-bottom: -8px;
-        width: 100% !important;
-        height: 130px;
-        border-radius: 35px;
-    }
-
-    .img-port {
-        margin-left: 9px;
-        width: 100% !important;
-        height: 123px !important;
-        margin-bottom: unset;
-        margin-top: unset;
-    }
-
-    .img-baby{
-        width: 118% !important;
-            height: 123px;
-        margin-bottom: unset;
-        margin-left: unset;
-    }
-
-    .img-weight{
-        width: 100% !important;
-        height: 130px !important;
-        margin-left: 3px;
-        margin-bottom: -10px;
-        margin-top: 3px;
-    }
-
-    .img-lila {
-        width: 100% !important;
-        margin-left: 0px;
-        height: 122px;
-    } */
 
     .box-img {
-        width: 100% !important;
-        height: 127px !important;
+        width: 135px !important;
+        height: 135px !important;
         max-height: 100%;
     }
 
     .img-stadio {
         width: 100% !important;
-        height: 130px;
+        height: 138px;
         margin-top: -0.1rem;
         margin-bottom: 5%;
         margin-left: -0.9rem;
@@ -550,7 +528,7 @@ button.bg-light:hover {
 
     .img-board {
         width: 100%!important;
-        height: 113px;
+        height: 120px;
         border-radius: 33px;
     }
 
@@ -580,10 +558,22 @@ button.bg-light:hover {
         width: 17.31px !important;
         height: 17.31px !important;
     }
+
+    .owl-item{
+        text-align: -webkit-center;
+    }
+
+    .box-shadow-sm {
+        box-shadow: 0px 4px 11px -6px;
+    }
+
+    .btn-drop {
+        height: 36px;
+    }
 }
 
 /* ===========Responsive Tablet Style============== */
-@media only screen and (max-width: 864px) and (min-width:476px) {
+@media only screen and (max-width: 864px) and (min-width:620px) {
     html,body{
         font-family: CerebriSansBook !important;
     background: linear-gradient(#FFFFFF, #D9D9D9) !important;
@@ -611,6 +601,7 @@ button.bg-light:hover {
 
     .owl-item{
         height: 100vw !important;
+      
     }
 
     .box-img {
@@ -653,6 +644,27 @@ button.bg-light:hover {
 
     .owl-nav{
         display: none !important;
+    }
+
+    .box-img {
+        width: 180px !important;
+        height: 180px !important;
+        max-height: 100%;
+    }
+
+    .img-stadio {
+        width: 180px !important;
+        height: 185px;
+        margin-top: -0.1rem;
+        margin-bottom: 5%;
+        margin-left: -0.9rem;
+    }
+
+    .img-board {
+        width: 180px !important;
+        height: 180px;
+        margin-top: 6%;
+        border-radius: 40px;
     }
 }
 
@@ -731,23 +743,23 @@ button.bg-light:hover {
     }
 
     .box-img {
-        width: 100% !important;
-        height: 27vh !important;
+        width: 300px !important;
+        height: 300px !important;
         max-height: 100%;
     }
 
     .img-stadio {
-        width: 100% !important;
-        height: 27.5vh;
+        width: 300px !important;
+        height: 308px;
         margin-top: -0.1rem;
         margin-bottom: 5%;
-        margin-left: -0.9rem;
+        margin-left: -1.9rem;
     }
 
     .img-board {
-        width: 100%!important;
-        height: auto;
-        margin-top:14%;
+        width: 300px !important;
+        height: 300px;
+        margin-top: 7%;
         border-radius: 40px;
     }
 

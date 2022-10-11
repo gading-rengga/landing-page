@@ -45,9 +45,9 @@
 								<h1 class="regular">Paket</h1>
 								<h2 class="bold blue">Antropometri</h2>
 								<div class="pt-1  sub-title">
-									<p class="regular dark-grey">Untuk tutorial cara penggunaan,
+									<h4 class="regular dark-grey">Untuk tutorial cara penggunaan,
 										pemasangan & pelepasan produk kami
-										Silahkan pilih tutorial di bawah ini ya </p>
+										Silahkan pilih tutorial di bawah ini ya </h4>
 								</div>
 							</div>
 							<div class="card bg-gradient-grey border-0 rounded-xl">
@@ -61,60 +61,62 @@
 					<div class="pt-2  mr-auto">
 						<div class="carousel owl-carousel">
 							<!-- =============Stadiometer================= -->
-							<div class="m-3">
+							<div class="card-carousel">
 								<div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
 									<div class="card-header   p-0 rounded-md h-100">
 										<img class="img-stadio" src="<?= base_url('assets') ?>/img/stadiometer.png" alt="">
 									</div>
 								</div>
-								<div class="btn-group w-100 mt-2">
-									<button type="button" class="btn bg-light rounded-md dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+								<div id="stadio" class="btn-group w-100 mt-2">
+									<button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
 										<div class="row">
-											<div class="col-6 text-left">
+											<div class="col-6 text-left my-auto pl-4">
 												<h6 class="m-0 p-0">Portable</h6>
 												<h5 class="blue m-0 p-0 bold">Stadiometer</h5>
 											</div>
 											<div class="col-6 icon">
-												<div class=" rounded-circle  ml-auto">
-													<img onclick="clicked(this)" class="btn-arrow-down">
+												<div class="btn-icon stadio rounded-circle  ml-auto">
+													<img class="nav-arrow btn-arrow-down">
+													<!-- <img onclick="clicked(this)" class="nav-arrow btn-arrow-down"> -->
 												</div>
 											</div>
 										</div>
 									</button>
 									<div class="dropdown-menu sobad-dropdown" style="">
 										<a class="dropdown-item sobad-drodown-item" href="https://www.youtube.com/watch?v=JKcsRQCdgEQ&list=PLuX5spsJ1i8JWKK7cMnqQaDGwmqjzhC67&index=2" target="_blank">
-											<h6>Cara Pemasangan</h6>
+											<h6 class="m-0">Cara Pemasangan</h6>
 										</a>
 										<a class="dropdown-item sobad-drodown-item" href="https://www.youtube.com/watch?v=pmMgv4iwEgg" target="_blank">
-											<h6>Cara Penggunaan</h6>
+											<h6 class="m-0">Cara Penggunaan</h6>
 										</a>
 									</div>
 								</div>
 							</div>
 							<!-- =============Infantometer Board================= -->
-							<div class="m-3">
+							<div class="card-carousel">
 								<div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
 									<div class="card-header  p-0 rounded-md h-100">
 										<img class="img-board" src="<?= base_url('assets') ?>/img/board.png" alt="">
 									</div>
 								</div>
-								<div class="btn-group w-100 mt-2">
-									<button type="button" class="btn bg-light rounded-md dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+								<div id="board" class="btn-group w-100 mt-2">
+									<button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
 										<div class="row">
-											<div class="col-6 text-left">
+											<div class="col-6 text-left my-auto pl-4">
 												<h6 class="m-0 p-0">Infantometer</h6>
 												<h5 class="blue m-0 p-0 bold">Board.</h5>
 											</div>
 											<div class="col-6 icon">
-												<div class="rounded-circle ml-auto">
-													<img onclick="clicked(this)" class="btn-arrow-down">
+												<div class="btn-icon board rounded-circle ml-auto">
+													<img class="nav-arrow btn-arrow-down">
+													<!-- <img onclick="clicked(this)" class="nav-arrow btn-arrow-down"> -->
 												</div>
 											</div>
 										</div>
 									</button>
 									<div class="dropdown-menu sobad-dropdown" style="">
 										<a class="dropdown-item sobad-drodown-item" href="https://www.youtube.com/watch?v=0LfhVddNcjo" target="_blank">
-											<h6>Cara Pemasangan</h6>
+											<h6 class="m-0">Cara Pemasangan</h6>
 										</a>
 										<!-- <a class="dropdown-item sobad-drodown-item" href="#">
                                             <h5>Cara Penggunaan</h5>
@@ -123,78 +125,81 @@
 								</div>
 							</div>
 							<!-- =============Infantometer Port================= -->
-							<div class="m-3">
+							<div class="card-carousel">
 								<div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
 									<div class="card-header  p-0 rounded-md h-100">
 										<img class="img-port" src="<?= base_url('assets') ?>/img/infantometer-port.png" alt="">
 									</div>
 								</div>
-								<div class="btn-group w-100 mt-2">
-									<button type="button" class="btn bg-light rounded-md dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+								<div id="port" class="btn-group  w-100 mt-2">
+									<button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
 										<div class="row">
-											<div class="col-6 text-left">
+											<div class="col-6 text-left my-auto pl-4">
 												<h6 class="m-0 p-0">Infantometer</h6>
 												<h5 class="blue m-0 p-0 bold">Portable.</h5>
 											</div>
 											<div class="col-6 icon">
-												<div class="rounded-circle ml-auto">
-													<img onclick="clicked(this)" class="btn-arrow-down">
+												<div class="btn-icon port rounded-circle ml-auto">
+													<img class="nav-arrow btn-arrow-down">
+													<!-- <img onclick="clicked(this)" class="nav-arrow btn-arrow-down"> -->
 												</div>
 											</div>
 										</div>
 									</button>
 									<div class="dropdown-menu sobad-dropdown">
 										<a class="dropdown-item sobad-drodown-item" href="https://youtube.com/watch?v=A1dwcrGoW0g" target="_blank">
-											<h6>Cara Penggunaan</h6>
+											<h6 class="m-0">Cara Penggunaan</h6>
 										</a>
 									</div>
 								</div>
 							</div>
 							<!-- =============Baby Scale================= -->
-							<div class="m-3">
+							<div class="card-carousel">
 								<div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
 									<div class="card-header  p-0 rounded-md h-100">
 										<img class="img-baby" src="<?= base_url('assets') ?>/img/baby-try.png" alt="">
 									</div>
 								</div>
-								<div class="btn-group w-100 mt-2">
-									<button type="button" class="btn bg-light rounded-md dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+								<div id="baby" class="btn-group w-100 mt-2">
+									<button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
 										<div class="row">
-											<div class="col-6 text-left">
+											<div class="col-6 text-left my-auto pl-4">
 												<h6 class="m-0 p-0">Digital</h6>
 												<h5 class="blue m-0 p-0 bold">Baby Scale.</h5>
 											</div>
 											<div class="col-6 icon">
-												<div class="rounded-circle ml-auto">
-													<img onclick="clicked(this)" class="btn-arrow-down">
+												<div class="btn-icon baby rounded-circle ml-auto">
+													<img class="nav-arrow btn-arrow-down">
+													<!-- <img onclick="clicked(this)" class="nav-arrow btn-arrow-down"> -->
 												</div>
 											</div>
 										</div>
 									</button>
 									<div class="dropdown-menu sobad-dropdown" style="">
 										<a class="dropdown-item sobad-drodown-item" href="https://www.youtube.com/watch?v=avM4DC4oWUg&list=PLuX5spsJ1i8JWKK7cMnqQaDGwmqjzhC67&index=3" target="_blank">
-											<h6>Cara Pemasangan</h6>
+											<h6 class="m-0">Cara Pemasangan</h6>
 										</a>
 									</div>
 								</div>
 							</div>
 							<!-- =============Weight Scale================= -->
-							<div class="m-3">
+							<div class="card-carousel">
 								<div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
 									<div class="card-header  p-0 rounded-md h-100">
 										<img class="img-weight" src="<?= base_url('assets') ?>/img/h-timbangan dewasa.png" alt="">
 									</div>
 								</div>
-								<div class="btn-group w-100 mt-2">
-									<button type="button" class="btn bg-light rounded-md dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+								<div id="scale" class="btn-group w-100 mt-2">
+									<button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
 										<div class="row">
-											<div class="col-6 text-left">
+											<div class="col-6 text-left my-auto pl-4">
 												<h6 class="m-0 p-0">Digital</h6>
 												<h5 class="blue m-0 p-0 bold">Weight Scale.</h5>
 											</div>
 											<div class="col-6 icon">
-												<div class="rounded-circle ml-auto">
-													<img onclick="clicked(this)" class="btn-arrow-down">
+												<div class="btn-icon scale rounded-circle ml-auto">
+													<img class="nav-arrow btn-arrow-down">
+													<!-- <img onclick="clicked(this)" class="nav-arrow btn-arrow-down"> -->
 												</div>
 											</div>
 										</div>
@@ -207,29 +212,30 @@
 								</div>
 							</div>
 							<!-- =============LILA================= -->
-							<div class="m-3">
+							<div class="card-carousel">
 								<div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
 									<div class="card-header  p-0 rounded-md h-100">
 										<img class="img-lila" src="<?= base_url('assets') ?>/img/lila.png" alt="">
 									</div>
 								</div>
-								<div class="btn-group w-100 mt-2">
-									<button type="button" class="btn bg-light rounded-md dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+								<div id="lila" class="btn-group w-100 mt-2">
+									<button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
 										<div class="row">
-											<div class="col-6 text-left">
+											<div class="col-6 text-left my-auto pl-4">
 												<h6 class="m-0 p-0">Body </h6>
 												<h5 class="blue m-0 p-0 bold">Measuring Tape</h5>
 											</div>
 											<div class="col-6 icon">
-												<div class="rounded-circle ml-auto">
-													<img onclick="clicked(this)" class="btn-arrow-down">
+												<div class="btn-icon lila rounded-circle ml-auto">
+													<img class="nav-arrow btn-arrow-down">
+													<!-- <img onclick="clicked(this)" class="nav-arrow btn-arrow-down"> -->
 												</div>
 											</div>
 										</div>
 									</button>
 									<div class="dropdown-menu sobad-dropdown" style="">
 										<a class="dropdown-item sobad-drodown-item" href="https://www.youtube.com/watch?v=qn4kzDO1_-o" target="_blank">
-											<h6>Cara Penggunaan</h6>
+											<h6 class="m-0">Cara Penggunaan</h6>
 										</a>
 									</div>
 								</div>
