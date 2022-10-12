@@ -237,8 +237,9 @@ p{
 
 .icon {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .content-icon{

@@ -69,17 +69,12 @@
 								</div>
 								<div id="stadio" class="btn-group w-100 mt-2">
 									<button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
-										<div class="row">
-											<div class="col-6 text-left my-auto pl-4">
-												<h6 class="m-0 p-0">Portable</h6>
-												<h5 class="blue m-0 p-0 bold">Stadiometer</h5>
-											</div>
-											<div class="col-6 icon">
-												<div class="btn-icon stadio rounded-circle  ml-auto">
-													<img class="nav-arrow btn-arrow-down">
-													<!-- <img onclick="clicked(this)" class="nav-arrow btn-arrow-down"> -->
-												</div>
-											</div>
+										<div class="w-50 float-left text-left h-100">
+											<h6 class="m-0 p-0">Portable</h6>
+											<h5 class="blue m-0 p-0 bold">Stadiometer</h5>
+										</div>
+										<div class="stadio w-50 float-left text-right h-100 icon">
+											<img class="nav-arrow btn-arrow-down">
 										</div>
 									</button>
 									<div class="dropdown-menu sobad-dropdown" style="">
@@ -101,17 +96,12 @@
 								</div>
 								<div id="board" class="btn-group w-100 mt-2">
 									<button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
-										<div class="row">
-											<div class="col-6 text-left my-auto pl-4">
-												<h6 class="m-0 p-0">Infantometer</h6>
-												<h5 class="blue m-0 p-0 bold">Board.</h5>
-											</div>
-											<div class="col-6 icon">
-												<div class="btn-icon board rounded-circle ml-auto">
-													<img class="nav-arrow btn-arrow-down">
-													<!-- <img onclick="clicked(this)" class="nav-arrow btn-arrow-down"> -->
-												</div>
-											</div>
+										<div class="w-50 float-left text-left h-100">
+											<h6 class="m-0 p-0">Infantometer</h6>
+											<h5 class="blue m-0 p-0 bold">Board.</h5>
+										</div>
+										<div class="board w-50 float-left text-right h-100 icon">
+											<img class="nav-arrow btn-arrow-down">
 										</div>
 									</button>
 									<div class="dropdown-menu sobad-dropdown" style="">
@@ -133,17 +123,12 @@
 								</div>
 								<div id="port" class="btn-group  w-100 mt-2">
 									<button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
-										<div class="row">
-											<div class="col-6 text-left my-auto pl-4">
-												<h6 class="m-0 p-0">Infantometer</h6>
-												<h5 class="blue m-0 p-0 bold">Portable.</h5>
-											</div>
-											<div class="col-6 icon">
-												<div class="btn-icon port rounded-circle ml-auto">
-													<img class="nav-arrow btn-arrow-down">
-													<!-- <img onclick="clicked(this)" class="nav-arrow btn-arrow-down"> -->
-												</div>
-											</div>
+										<div class="w-50 float-left text-left h-100">
+											<h6 class="m-0 p-0">Infantometer</h6>
+											<h5 class="blue m-0 p-0 bold">Portable.</h5>
+										</div>
+										<div class="port w-50 float-left text-right h-100 icon">
+											<img class="nav-arrow btn-arrow-down">
 										</div>
 									</button>
 									<div class="dropdown-menu sobad-dropdown">
@@ -162,17 +147,12 @@
 								</div>
 								<div id="baby" class="btn-group w-100 mt-2">
 									<button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
-										<div class="row">
-											<div class="col-6 text-left my-auto pl-4">
-												<h6 class="m-0 p-0">Digital</h6>
-												<h5 class="blue m-0 p-0 bold">Baby Scale.</h5>
-											</div>
-											<div class="col-6 icon">
-												<div class="btn-icon baby rounded-circle ml-auto">
-													<img class="nav-arrow btn-arrow-down">
-													<!-- <img onclick="clicked(this)" class="nav-arrow btn-arrow-down"> -->
-												</div>
-											</div>
+										<div class="w-50 float-left text-left h-100">
+											<h6 class="m-0 p-0">Digital</h6>
+											<h5 class="blue m-0 p-0 bold">Baby Scale.</h5>
+										</div>
+										<div class="baby w-50 float-left text-right h-100 icon">
+											<img class="nav-arrow btn-arrow-down">
 										</div>
 									</button>
 									<div class="dropdown-menu sobad-dropdown" style="">
@@ -191,17 +171,12 @@
 								</div>
 								<div id="scale" class="btn-group w-100 mt-2">
 									<button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
-										<div class="row">
-											<div class="col-6 text-left my-auto pl-4">
-												<h6 class="m-0 p-0">Digital</h6>
-												<h5 class="blue m-0 p-0 bold">Weight Scale.</h5>
-											</div>
-											<div class="col-6 icon">
-												<div class="btn-icon scale rounded-circle ml-auto">
-													<img class="nav-arrow btn-arrow-down">
-													<!-- <img onclick="clicked(this)" class="nav-arrow btn-arrow-down"> -->
-												</div>
-											</div>
+										<div class="w-50 float-left text-left h-100">
+											<h6 class="m-0 p-0">Digital</h6>
+											<h5 class="blue m-0 p-0 bold">Weight Scale.</h5>
+										</div>
+										<div class="scale w-50 float-left text-right h-100 icon">
+											<img class="nav-arrow btn-arrow-down">
 										</div>
 									</button>
 									<div class="dropdown-menu sobad-dropdown" style="">
@@ -220,17 +195,12 @@
 								</div>
 								<div id="lila" class="btn-group w-100 mt-2">
 									<button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
-										<div class="row">
-											<div class="col-6 text-left my-auto pl-4">
-												<h6 class="m-0 p-0">Body </h6>
-												<h5 class="blue m-0 p-0 bold">Measuring Tape</h5>
-											</div>
-											<div class="col-6 icon">
-												<div class="btn-icon lila rounded-circle ml-auto">
-													<img class="nav-arrow btn-arrow-down">
-													<!-- <img onclick="clicked(this)" class="nav-arrow btn-arrow-down"> -->
-												</div>
-											</div>
+										<div class="w-50 float-left text-left h-100">
+											<h6 class="m-0 p-0">Body </h6>
+											<h5 class="blue m-0 p-0 bold">Measuring Tape</h5>
+										</div>
+										<div class="lila w-50 float-left text-right h-100 icon">
+											<img class="nav-arrow btn-arrow-down">
 										</div>
 									</button>
 									<div class="dropdown-menu sobad-dropdown" style="">
