@@ -69,7 +69,7 @@
 								</div>
 								<div id="stadio" class="btn-group w-100 mt-2">
 									<button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
-										<div class="w-50 float-left text-left h-100">
+										<div class="w-50 float-left text-left h-100 content-title">
 											<h6 class="m-0 p-0">Portable</h6>
 											<h5 class="blue m-0 p-0 bold">Stadiometer</h5>
 										</div>
@@ -96,7 +96,7 @@
 								</div>
 								<div id="board" class="btn-group w-100 mt-2">
 									<button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
-										<div class="w-50 float-left text-left h-100">
+										<div class="w-50 float-left text-left h-100 content-title">
 											<h6 class="m-0 p-0">Infantometer</h6>
 											<h5 class="blue m-0 p-0 bold">Board.</h5>
 										</div>
@@ -123,7 +123,7 @@
 								</div>
 								<div id="port" class="btn-group  w-100 mt-2">
 									<button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
-										<div class="w-50 float-left text-left h-100">
+										<div class="w-50 float-left text-left h-100 content-title">
 											<h6 class="m-0 p-0">Infantometer</h6>
 											<h5 class="blue m-0 p-0 bold">Portable.</h5>
 										</div>
@@ -147,7 +147,7 @@
 								</div>
 								<div id="baby" class="btn-group w-100 mt-2">
 									<button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
-										<div class="w-50 float-left text-left h-100">
+										<div class="w-50 float-left text-left h-100 content-title">
 											<h6 class="m-0 p-0">Digital</h6>
 											<h5 class="blue m-0 p-0 bold">Baby Scale.</h5>
 										</div>
@@ -171,7 +171,7 @@
 								</div>
 								<div id="scale" class="btn-group w-100 mt-2">
 									<button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
-										<div class="w-50 float-left text-left h-100">
+										<div class="w-50 float-left text-left h-100 content-title">
 											<h6 class="m-0 p-0">Digital</h6>
 											<h5 class="blue m-0 p-0 bold">Weight Scale.</h5>
 										</div>
@@ -195,7 +195,7 @@
 								</div>
 								<div id="lila" class="btn-group w-100 mt-2">
 									<button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
-										<div class="w-50 float-left text-left h-100">
+										<div class="w-50 float-left text-left h-100 content-title">
 											<h6 class="m-0 p-0">Body </h6>
 											<h5 class="blue m-0 p-0 bold">Measuring Tape</h5>
 										</div>

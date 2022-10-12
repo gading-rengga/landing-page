@@ -260,6 +260,11 @@ p{
     height: 45px;
 }
 
+.content-title{
+    display: grid;
+    align-items: center;
+}
+
 
 
 /* Image style */
