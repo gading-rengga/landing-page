@@ -2,7 +2,7 @@ $(".carousel").owlCarousel({
     startPosition: 0,
     items: 1,
     loop: true,
-    autoplay: false,
+    autoplay: true,
     responsiveClass: true,
     nav: true,
     navText: ["<img src='assets/img/arrow-prev.png'>", "<img src='assets/img/arrow-next.png'>"],
