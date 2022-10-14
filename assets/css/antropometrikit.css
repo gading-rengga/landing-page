@@ -699,7 +699,7 @@ button.bg-light:hover {
 }
 
 /* Reference Ipad Mini  */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 620px) {
     .card-pc{
         display: unset;
     }
