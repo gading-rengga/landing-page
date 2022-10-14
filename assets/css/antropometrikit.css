@@ -457,7 +457,7 @@ button.bg-light:hover {
     }
     
     h2{
-        font-size: 28px !important;
+        font-size: 32px !important;
         margin: 0 !important;
     }
     
@@ -484,33 +484,45 @@ button.bg-light:hover {
         line-height: 8px;
     }
     
-    
+    .box-shadow-sm {
+        box-shadow: 0px 1px 15px -8px;
+    }
+
+    .rounded-xl {
+        border-radius: 25px !important;
+    }
+
+    .rounded-md {
+        border-radius: 20px !important;
+    }
 
     .sub-title {
         padding-right: 26px;
     }
 
-    .box-img {
-        width: 109px;
-        height: 109px;
-        max-height: 100%;
+    .card-carousel {
+        width: 110px;
+        height: 105px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 13px;
     }
 
     .img-stadio {
-        height: 110px;
+        height: 105px;
         margin-top: -1px;
         margin-left: -6px;
     }
 
     .img-board {
-        width: 100%!important;
-        height: auto;
-        margin-top: 25px;
-        border-radius: 30px;
+        width: 110px !important;
+        height: 110px;
+        margin-top: 0px;
+        border-radius: 34px;
     }
 
     .img-baby {
-        width: 133px !important;
+        width: 130px !important;
         height: auto;
     }
 
@@ -520,7 +532,7 @@ button.bg-light:hover {
     }
 
     .img-lila {
-        width: 100px !important;
+        width: 90px !important;
         height: auto;
     }
 
@@ -546,12 +558,12 @@ button.bg-light:hover {
 
     .owl-next {
         right: -15px;
-        top: 52%;
+        top: 54%;
     }
 
     .owl-prev {
         left: -15px;
-        top: 52%;
+        top: 54%;
     }
 
     .dropdown-menu.sobad-dropdown.show {
@@ -573,7 +585,7 @@ button.bg-light:hover {
 }
 
 
-/* Reference I phone 8  */
+/* Reference I phone 8-7-6  */
 @media screen and (min-width: 375px) {
     .card-pc{
         display: none;
@@ -623,14 +635,19 @@ button.bg-light:hover {
     }
 
     .box-img {
-        width: 125px;
+        width: 100%;
+    }
+
+    .card-carousel {
+        width: 130px;
         height: 125px;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 21px;
     }
 
     .img-stadio {
-        height: 127px;
+        height: 128px;
         margin-top: -1px;
         margin-left: -10px;
     }
@@ -642,8 +659,8 @@ button.bg-light:hover {
     }
 
     .img-baby {
-        width: 151px !important;
-        height: 146px;
+        width: 154px !important;
+        height: 140px;
     }
 
     .img-lila {
@@ -653,9 +670,9 @@ button.bg-light:hover {
     }
 
     .img-weight {
-        margin-top: 17px;
-        width: 123px !important;
-        height: 123px;
+        margin-top: 12px;
+        width: 127px !important;
+        height: 127px;
     }
 
     .manufac{
@@ -665,12 +682,12 @@ button.bg-light:hover {
     
 
     .dropdown-menu.sobad-dropdown.show {
-        width: 136px !important;
+        width: 100% !important;
         min-width: auto;
     }
 
     .dropdown-item {
-        width: 124px !important;
+        width: 112px !important;
         margin-left: auto !important;
         margin-right: auto !important;
         padding: 0px !important;
@@ -681,6 +698,7 @@ button.bg-light:hover {
     }
 }
 
+/* Reference Ipad Mini  */
 @media screen and (min-width: 768px) {
     .card-pc{
         display: unset;
@@ -695,8 +713,8 @@ button.bg-light:hover {
         line-height: 0.7 !important;
     }
     
-    h2{
-        font-size: 38px !important;
+    h2 {
+        font-size: 35px !important;
         margin: 0 !important;
     }
     
@@ -728,39 +746,46 @@ button.bg-light:hover {
     }
 
     .box-img {
-        width: 165px;
-        height: 165px;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
 
+    .card-carousel {
+        width: 160px;
+        height: 160px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 21px;
+    }
+
     .img-stadio {
-        height: 168px;
+        height: 161px;
         margin-top: -1px;
         margin-left: -10px;
     }
 
     .img-board {
-        height: 163px;
-        width: 163px !important;
+        height: 157px;
+        width: 158px !important;
         border-radius: 40px;
         margin-top: 10px;
     }
 
     .img-baby {
-        width: 196px !important;
-        height: 194px;
+        width: 187px !important;
+        height: 187px;
     }
 
     .img-weight {
-        margin-top: 24px;
-        width: 163px !important;
-        height: 163px;
+        margin-top: 18px;
+        width: 157px !important;
+        height: 157px;
     }
 
     .img-lila {
-        width: 160px !important;
-        height: 160px;
+        width: 150px !important;
+        height: 150px;
         margin-top: 12px;
     }
 
@@ -769,7 +794,7 @@ button.bg-light:hover {
     }
 
     .dropdown-menu.sobad-dropdown.show {
-        width: 160px !important;
+        width: 100% !important;
         min-width: auto;
     }
 
@@ -799,6 +824,8 @@ button.bg-light:hover {
     }
 }
 
+/* Reference Laptop 14 inch  */
+
 @media screen and (min-width: 1280px) {
     .content{
         max-width: 50% !important;
@@ -806,13 +833,13 @@ button.bg-light:hover {
     }
 
     h1 {
-        font-size: 54px !important;
+        font-size: 45px !important;
         margin: 0 !important;
         line-height: 0.7 !important;
     }
     
     h2{
-        font-size: 38px !important;
+        font-size: 35px !important;
         margin: 0 !important;
     }
     
@@ -839,63 +866,84 @@ button.bg-light:hover {
     }
 
     .box-img {
-        width: 160px;
-        height: 160px;
+        width: 100%;
+    }
+
+    .card-carousel {
+        width: 161px;
+        height: 161px;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 25px;
     }
 
     .img-stadio {
-        height: 163px;
+        height: 162px;
         margin-top: -1px;
         margin-left: -10px;
     }
 
     .img-board {
-        height: 159px;
-        width: 159px !important;
+        height: 161px;
+        width: 161px !important;
         border-radius: 40px;
         margin-top: 10px;
     }
 
     .img-baby {
-        width: 190px !important;
-        height: 190px;
+        width: 191px !important;
+        height: 184px;
+        margin-top: 2px;
     }
 
     .img-weight {
-        margin-top: 24px;
-        width: 158px !important;
-        height: 158px;
+        margin-top: 19px;
+        width: 159px !important;
+        height: 159px;
     }
 
     .img-lila {
-        width: 156px !important;
-        height: 156px;
+        width: 151px !important;
+        height: 151px;
         margin-top: 12px;
     }
 
     .dropdown-menu.sobad-dropdown.show {
-        width: 173px !important;
+        width: 100% !important;
         min-width: auto;
     }
 
     .dropdown-item {
-        width: 151px !important;
+        width: 138px !important;
         margin-left: auto !important;
         margin-right: auto !important;
         padding: 0px !important;
-        height: 25px !important;
+        height: 29px !important;
         display: flex !important;
         align-items: center !important;
         justify-content: space-around !important;
     }
 
+    .dropdown-toggle {
+        padding-left: 18px !important;
+        padding-right: 12px !important;
+    }
+
     .owl-nav{
         display: none;
     }
+
+    .rounded-xl{
+        border-radius: 38px !important;
+    }
+
+    .rounded-md {
+        border-radius: 20px !important;
+    }
+    
 }
 
+/* Reference Pc Dekstop Up to 21 inch */
 @media screen and (min-width: 1680px) {
 
     h1 {
@@ -932,41 +980,49 @@ button.bg-light:hover {
     }
 
     .box-img {
-        width: 228px;
-        height: 228px;
+        width: 100%;
+        height: inherit;
         margin-left: auto;
         margin-right: auto;
     }
 
+    .card-carousel {
+        width: 260px;
+        height: 260px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+
     .img-stadio {
-        height: 230px;
+        height: 264px;
         margin-top: -1px;
         margin-left: -10px;
     }
 
     .img-board {
-        height: 229px;
-        width: 229px !important;
+        height: 266px;
+        width: 258px !important;
         border-radius: 40px;
         margin-top: 10px;
     }
 
     .img-baby {
-        width: 277px !important;
-        height: 251px;
+        width: 307px !important;
+        height: 283px;
         margin-top: 2px;
     }
 
     .img-weight {
         margin-top: 24px;
-        width: 221px !important;
-        height: 221px;
+        width: 247px !important;
+        height: 247px;
     }
 
     .img-lila {
-        width: 208px !important;
-        height: 208px;
-        margin-top: 12px;
+        width: 224px !important;
+        height: 224px;
+        margin-top: 20px;
     }
 
     .owl-nav{
@@ -974,22 +1030,26 @@ button.bg-light:hover {
     }
 
     .owl-item {
-        height: 394px !important;
+        height: 505px !important;
     }
 
     .dropdown-menu.sobad-dropdown.show {
-        width: 220px !important;
+        width: 100% !important;
         min-width: auto;
     }
 
     .dropdown-item {
-        width: 180px !important;
+        width: 222px !important;
         margin-left: auto !important;
         margin-right: auto !important;
-        padding: 0px !important;
-        height: 25px !important;
+        padding: 1px !important;
+        height: 46px !important;
         display: flex !important;
         align-items: center !important;
         justify-content: space-around !important;
+    }
+
+    .btn-drop {
+        height: 59px;
     }
 }

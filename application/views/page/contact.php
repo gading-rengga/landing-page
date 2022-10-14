@@ -17,7 +17,7 @@
             <div class="col-md-12 p-0">
                 <div class="sobad-background"></div>
                 <div class="col-md-8 mr-auto ml-auto text-center">
-                    <div class="mt-3 mb-xl-5">
+                    <div class="content">
                         <img class="bg-white rounded-circle mt-5" src="<?= base_url('assets') ?>/img/sobad-logo-circle.png" alt="" style="width: 96px; height:96px">
                         <h4 class="white pt-3 pb-3">@soloabadi</h4>
                     </div>

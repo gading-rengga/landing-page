@@ -21,10 +21,10 @@
                     <div class="pt-4 card-pc">
                         <div class="card bg-gradient-grey border-0 rounded-xl box-shadow-sm">
                             <div class="row m-0 align-items-center">
-                                <div class="col-md-6 pr-3 pt-3 pl-4 pb-3">
+                                <div class="col-md-6 pr-3 pt-3 pl-5 pb-3">
                                     <h1 class="regular">Paket</h1>
                                     <h2 class="bold blue">Antropometri</h2>
-                                    <div class="mt-3 cobtent-title">
+                                    <div class="mt-4 cobtent-title">
                                         <p class="regular dark-grey">Untuk tutorial cara penggunaan,
                                             pemasangan & pelepasan produk kami
                                             Silahkan pilih tutorial di bawah ini ya </p>

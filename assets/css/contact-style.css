@@ -1,19 +1,11 @@
 @font-face {
-    font-family: 'CerebriSansBold';
-    src: url('../fonts/CerebriSansBold.woff');
-}
-@font-face {
-    font-family: 'CerebriSansBook';
-    src: url('../fonts/CerebriSansBook.woff');
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope.woff');
 }
 
-.regular{
-    font-family:CerebriSansBook !important;
+html,body{
+    font-family:Manrope !important;
 }
-.bold{
-    font-family: CerebriSansBold !important;
-}
-
 
 .sobad-background {
     position: fixed;
@@ -220,4 +212,8 @@ p{
 .btn-action:hover{
     background-color: #FFFFFF;
     color:black !important
+}
+
+.content{
+    margin-bottom: 32px;
 }
