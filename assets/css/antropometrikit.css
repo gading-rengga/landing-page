@@ -430,7 +430,7 @@ button.bg-light:hover {
 /* =========================================Responsive Zone================================================  */
 
 /* Reference I phone 5 SE */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 374px) {
 
     .main{         
         position:relative;
