@@ -266,7 +266,7 @@ p{
 }
 
 .btn:focus-within img {
-    transform: rotate(-90deg);
+    transform: rotate(-90deg) !important;
 }
 
 
