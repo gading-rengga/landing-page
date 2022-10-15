@@ -57,8 +57,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="owl-nav"></div>
                     <div class="pt-2  mr-auto">
+                        <div class="owl-nav"></div>
                         <div class="carousel owl-carousel">
                             <!-- =============Stadiometer================= -->
                             <div class="card-carousel">
@@ -67,8 +67,8 @@
                                         <img class="img-stadio" src="<?= base_url('assets') ?>/img/stadiometer.png" alt="">
                                     </div>
                                 </div>
-                                <div id="stadio" class="btn-group w-100 mt-2">
-                                    <button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+                                <div class="btn-group w-100 mt-2">
+                                    <button id="stadio" type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
                                         <div class="w-50 float-left text-left h-100 content-title">
                                             <h6 class="m-0 p-0">Portable</h6>
                                             <h5 class="blue m-0 p-0 bold">Stadiometer</h5>
@@ -145,13 +145,13 @@
                                         <img class="img-baby" src="<?= base_url('assets') ?>/img/baby-try.png" alt="">
                                     </div>
                                 </div>
-                                <div id="baby" class="btn-group w-100 mt-2">
+                                <div id="baby-scale" class="btn-group w-100 mt-2">
                                     <button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
                                         <div class="w-50 float-left text-left h-100 content-title">
                                             <h6 class="m-0 p-0">Digital</h6>
                                             <h5 class="blue m-0 p-0 bold">Baby Scale.</h5>
                                         </div>
-                                        <div class="baby w-50 float-left text-right h-100 icon">
+                                        <div class="baby-scale w-50 float-left text-right h-100 icon">
                                             <img class="nav-arrow btn-arrow-down">
                                         </div>
                                     </button>
@@ -229,7 +229,6 @@
     <script src="<?= base_url('assets') ?>/bootstrap-4/js/bootstrap.min.js"></script>
     <script src="<?= base_url('assets') ?>/plugin/owl-carousel/js/owl.carousel.min.js"></script>
     <script src="<?= base_url('assets') ?>/js/carousel.js"></script>
-    <script src="<?= base_url('assets') ?>/js/animate.js"></script>
 </body>
 
 </html>

@@ -265,6 +265,10 @@ p{
     align-items: center;
 }
 
+.btn:focus-within img {
+    transform: rotate(-90deg);
+}
+
 
 
 /* Image style */
@@ -332,6 +336,10 @@ p{
     margin: 9%;
 }
 
+.rotate{
+    transform: rotate(-90deg);
+}
+
 
 /* ==============OwlCarousel Custom Style============ */
 .owl-item{
@@ -368,6 +376,9 @@ p{
     right: -15px;
     top: 60%;
 }
+
+
+
 
 
 /* ==============Bootstrap Style Modifed============== */
@@ -420,6 +431,7 @@ button.bg-light:hover {
     display: flex !important;
     align-items: center !important;
     justify-content: space-around !important;
+    margin-bottom:1px;
 }
 
 .dropdown-menu{
@@ -428,6 +440,12 @@ button.bg-light:hover {
 
 
 /* =========================================Responsive Zone================================================  */
+
+@media screen and (max-height: 620px) {
+    .manufac{
+        display: none;
+    }
+}
 
 /* Reference I phone 5 SE */
 @media screen and (max-width: 374px) {
@@ -546,23 +564,21 @@ button.bg-light:hover {
         height: 20px !important;
     }
 
+   
+    
     .btn-arrow-next {
         content: url(../img/btn-arrow-next.png);
         width: 20px !important;
         height: 20px !important;
     }
 
-    .manufac{
-        display: none;
-    }
-
     .owl-next {
-        right: -15px;
+        right: -10px;
         top: 54%;
     }
 
     .owl-prev {
-        left: -15px;
+        left: -10px;
         top: 54%;
     }
 
@@ -580,6 +596,7 @@ button.bg-light:hover {
         display: flex !important;
         align-items: center !important;
         justify-content: space-around !important;
+        margin-bottom:1px;
     }
 
 }
@@ -675,12 +692,6 @@ button.bg-light:hover {
         height: 127px;
     }
 
-    .manufac{
-        display: none;
-    }
-
-    
-
     .dropdown-menu.sobad-dropdown.show {
         width: 100% !important;
         min-width: auto;
@@ -695,6 +706,21 @@ button.bg-light:hover {
         display: flex !important;
         align-items: center !important;
         justify-content: space-around !important;
+        margin-bottom:1px;
+    }
+
+    .owl-next {
+        right: -10px;
+        top: 59%;
+    }
+
+    .owl-prev {
+        left: -10px;
+        top: 59%;
+    }
+
+    .rotate{
+        transform: rotate(-90deg);
     }
 }
 
@@ -807,18 +833,8 @@ button.bg-light:hover {
         display: flex !important;
         align-items: center !important;
         justify-content: space-around !important;
+        margin-bottom:1px;
     }
-
-    .owl-next {
-        right: -15px;
-        top: 55%;
-    }
-
-    .owl-prev {
-        left: -15px;
-        top: 55%;
-    }
-
     .owl-nav{
         display: none;
     }
@@ -922,6 +938,7 @@ button.bg-light:hover {
         display: flex !important;
         align-items: center !important;
         justify-content: space-around !important;
+        margin-bottom:1px;
     }
 
     .dropdown-toggle {
@@ -1047,6 +1064,7 @@ button.bg-light:hover {
         display: flex !important;
         align-items: center !important;
         justify-content: space-around !important;
+        margin-bottom:1px;
     }
 
     .btn-drop {
