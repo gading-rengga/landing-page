@@ -25,11 +25,11 @@ $(document).ready(function () {
         $(".port").html('<img class="btn-arrow-next">');
     });
 
-    $("#baby").on("hide.bs.dropdown", function () {
-        $(".baby").html('<img class="btn-arrow-down">');
+    $("#baby-scale").on("hide.bs.dropdown", function () {
+        $(".baby-scale").html('<img class="btn-arrow-down">');
     });
-    $("#baby").on("show.bs.dropdown", function () {
-        $(".baby").html('<img class="btn-arrow-next">');
+    $("#baby-scale").on("show.bs.dropdown", function () {
+        $(".baby-scale").html('<img class="btn-arrow-next">');
     });
 
     $("#scale").on("hide.bs.dropdown", function () {

@@ -265,11 +265,17 @@ p{
     align-items: center;
 }
 
-.btn:focus-within img {
-    transform: rotate(-90deg) !important;
+/* .btn:focus-within img {
+    content:url("../img/btn-arrow-next.png");
+} */
+
+/* #check{
+    display: none;
+} */
+
+input:checked + img {
+    transform: rotate(90deg) !important;
 }
-
-
 
 /* Image style */
 .box-img {
