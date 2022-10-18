@@ -841,9 +841,7 @@ button.bg-light:hover {
         justify-content: space-around !important;
         margin-bottom:1px;
     }
-    .owl-nav{
-        display: none;
-    }
+  
 }
 
 /* Reference Laptop 14 inch  */
@@ -952,9 +950,6 @@ button.bg-light:hover {
         padding-right: 12px !important;
     }
 
-    .owl-nav{
-        display: none;
-    }
 
     .rounded-xl{
         border-radius: 38px !important;
@@ -962,6 +957,16 @@ button.bg-light:hover {
 
     .rounded-md {
         border-radius: 20px !important;
+    }
+
+    .owl-prev {
+        left: -10px;
+        top: 55%;
+    }
+
+    .owl-next {
+        right: -10px;
+        top: 55%;
     }
     
 }
@@ -1048,10 +1053,6 @@ button.bg-light:hover {
         margin-top: 20px;
     }
 
-    .owl-nav{
-        display: none;
-    }
-
     .owl-item {
         height: 505px !important;
     }
@@ -1075,5 +1076,15 @@ button.bg-light:hover {
 
     .btn-drop {
         height: 59px;
+    }
+
+    .owl-prev {
+        left: -10px;
+        top: 55%;
+    }
+
+    .owl-next {
+        right: -10px;
+        top: 55%;
     }
 }

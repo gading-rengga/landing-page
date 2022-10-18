@@ -3,7 +3,7 @@ $(document).ready(function () {
         startPosition: 0,
         items: 1,
         loop: false,
-        autoplay: true,
+        autoplay: false,
         responsiveClass: true,
         nav: true,
         navText: ["<img src='assets/img/arrow-prev.png'>", "<img src='assets/img/arrow-next.png'>"],

@@ -60,84 +60,6 @@
                     <div class="pt-2  mr-auto">
                         <div class="owl-nav"></div>
                         <div class="carousel owl-carousel">
-                            <!-- =============Stadiometer================= -->
-                            <div class="card-carousel">
-                                <div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
-                                    <div class="card-header   p-0 rounded-md h-100">
-                                        <img class="img-stadio" src="<?= base_url('assets') ?>/img/stadiometer.png" alt="">
-                                    </div>
-                                </div>
-                                <div id="stadio" class="btn-group w-100 mt-2">
-                                    <buttontype="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
-                                        <div class="w-50 float-left text-left h-100 content-title">
-                                            <h6 class="m-0 p-0">Portable</h6>
-                                            <h5 class="blue m-0 p-0 bold">Stadiometer</h5>
-                                        </div>
-                                        <div class="stadio w-50 float-left text-right h-100 icon">
-                                            <img class="nav-arrow arrow-stadio btn-arrow-down">
-                                        </div>
-                                        </buttontype=>
-                                        <div class="dropdown-menu sobad-dropdown" style="">
-                                            <a class="dropdown-item sobad-drodown-item" href="https://www.youtube.com/watch?v=JKcsRQCdgEQ&list=PLuX5spsJ1i8JWKK7cMnqQaDGwmqjzhC67&index=2" target="_blank">
-                                                <h6 class="m-0">Cara Pemasangan</h6>
-                                            </a>
-                                            <a class="dropdown-item sobad-drodown-item" href="https://www.youtube.com/watch?v=pmMgv4iwEgg" target="_blank">
-                                                <h6 class="m-0">Cara Penggunaan</h6>
-                                            </a>
-                                        </div>
-                                </div>
-                            </div>
-                            <!-- =============Infantometer Board================= -->
-                            <div class="card-carousel">
-                                <div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
-                                    <div class="card-header  p-0 rounded-md h-100">
-                                        <img class="img-board" src="<?= base_url('assets') ?>/img/board.png" alt="">
-                                    </div>
-                                </div>
-                                <div id="board" class="btn-group w-100 mt-2">
-                                    <button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
-                                        <div class="w-50 float-left text-left h-100 content-title">
-                                            <h6 class="m-0 p-0">Infantometer</h6>
-                                            <h5 class="blue m-0 p-0 bold">Board.</h5>
-                                        </div>
-                                        <div class="board w-50 float-left text-right h-100 icon">
-                                            <img class="nav-arrow arrow-board btn-arrow-down">
-                                        </div>
-                                    </button>
-                                    <div class="dropdown-menu sobad-dropdown" style="">
-                                        <a class="dropdown-item sobad-drodown-item" href="https://www.youtube.com/watch?v=0LfhVddNcjo" target="_blank">
-                                            <h6 class="m-0">Cara Pemasangan</h6>
-                                        </a>
-                                        <!-- <a class="dropdown-item sobad-drodown-item" href="#">
-                                            <h5>Cara Penggunaan</h5>
-                                        </a> -->
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- =============Infantometer Port================= -->
-                            <div class="card-carousel">
-                                <div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
-                                    <div class="card-header  p-0 rounded-md h-100">
-                                        <img class="img-port" src="<?= base_url('assets') ?>/img/infantometer-port.png" alt="">
-                                    </div>
-                                </div>
-                                <div id="port" class="btn-group  w-100 mt-2">
-                                    <button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
-                                        <div class="w-50 float-left text-left h-100 content-title">
-                                            <h6 class="m-0 p-0">Infantometer</h6>
-                                            <h5 class="blue m-0 p-0 bold">Portable.</h5>
-                                        </div>
-                                        <div class="port w-50 float-left text-right h-100 icon">
-                                            <img class="nav-arrow arrow-port btn-arrow-down">
-                                        </div>
-                                    </button>
-                                    <div class="dropdown-menu sobad-dropdown">
-                                        <a class="dropdown-item sobad-drodown-item" href="https://youtube.com/watch?v=A1dwcrGoW0g" target="_blank">
-                                            <h6 class="m-0">Cara Penggunaan</h6>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
                             <!-- =============Baby Scale================= -->
                             <div class="card-carousel">
                                 <div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
@@ -186,6 +108,33 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- =============Infantometer Board================= -->
+                            <div class="card-carousel">
+                                <div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
+                                    <div class="card-header  p-0 rounded-md h-100">
+                                        <img class="img-board" src="<?= base_url('assets') ?>/img/board.png" alt="">
+                                    </div>
+                                </div>
+                                <div id="board" class="btn-group w-100 mt-2">
+                                    <button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+                                        <div class="w-50 float-left text-left h-100 content-title">
+                                            <h6 class="m-0 p-0">Infantometer</h6>
+                                            <h5 class="blue m-0 p-0 bold">Board.</h5>
+                                        </div>
+                                        <div class="board w-50 float-left text-right h-100 icon">
+                                            <img class="nav-arrow arrow-board btn-arrow-down">
+                                        </div>
+                                    </button>
+                                    <div class="dropdown-menu sobad-dropdown" style="">
+                                        <a class="dropdown-item sobad-drodown-item" href="https://www.youtube.com/watch?v=0LfhVddNcjo" target="_blank">
+                                            <h6 class="m-0">Cara Pemasangan</h6>
+                                        </a>
+                                        <!-- <a class="dropdown-item sobad-drodown-item" href="#">
+                                            <h5>Cara Penggunaan</h5>
+                                        </a> -->
+                                    </div>
+                                </div>
+                            </div>
                             <!-- =============LILA================= -->
                             <div class="card-carousel">
                                 <div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
@@ -205,6 +154,57 @@
                                     </button>
                                     <div class="dropdown-menu sobad-dropdown" style="">
                                         <a class="dropdown-item sobad-drodown-item" href="https://www.youtube.com/watch?v=qn4kzDO1_-o" target="_blank">
+                                            <h6 class="m-0">Cara Penggunaan</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- =============Stadiometer================= -->
+                            <div class="card-carousel">
+                                <div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
+                                    <div class="card-header   p-0 rounded-md h-100">
+                                        <img class="img-stadio" src="<?= base_url('assets') ?>/img/stadiometer.png" alt="">
+                                    </div>
+                                </div>
+                                <div id="stadio" class="btn-group w-100 mt-2">
+                                    <buttontype="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+                                        <div class="w-50 float-left text-left h-100 content-title">
+                                            <h6 class="m-0 p-0">Portable</h6>
+                                            <h5 class="blue m-0 p-0 bold">Stadiometer</h5>
+                                        </div>
+                                        <div class="stadio w-50 float-left text-right h-100 icon">
+                                            <img class="nav-arrow arrow-stadio btn-arrow-down">
+                                        </div>
+                                        </buttontype=>
+                                        <div class="dropdown-menu sobad-dropdown" style="">
+                                            <a class="dropdown-item sobad-drodown-item" href="https://www.youtube.com/watch?v=JKcsRQCdgEQ&list=PLuX5spsJ1i8JWKK7cMnqQaDGwmqjzhC67&index=2" target="_blank">
+                                                <h6 class="m-0">Cara Pemasangan</h6>
+                                            </a>
+                                            <a class="dropdown-item sobad-drodown-item" href="https://www.youtube.com/watch?v=pmMgv4iwEgg" target="_blank">
+                                                <h6 class="m-0">Cara Penggunaan</h6>
+                                            </a>
+                                        </div>
+                                </div>
+                            </div>
+                            <!-- =============Infantometer Port================= -->
+                            <div class="card-carousel">
+                                <div class="card rounded-md box-img bg-gradient-primary-grey border-0 box-shadow-sm">
+                                    <div class="card-header  p-0 rounded-md h-100">
+                                        <img class="img-port" src="<?= base_url('assets') ?>/img/infantometer-port.png" alt="">
+                                    </div>
+                                </div>
+                                <div id="port" class="btn-group  w-100 mt-2">
+                                    <button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+                                        <div class="w-50 float-left text-left h-100 content-title">
+                                            <h6 class="m-0 p-0">Infantometer</h6>
+                                            <h5 class="blue m-0 p-0 bold">Portable.</h5>
+                                        </div>
+                                        <div class="port w-50 float-left text-right h-100 icon">
+                                            <img class="nav-arrow arrow-port btn-arrow-down">
+                                        </div>
+                                    </button>
+                                    <div class="dropdown-menu sobad-dropdown">
+                                        <a class="dropdown-item sobad-drodown-item" href="https://youtube.com/watch?v=A1dwcrGoW0g" target="_blank">
                                             <h6 class="m-0">Cara Penggunaan</h6>
                                         </a>
                                     </div>
