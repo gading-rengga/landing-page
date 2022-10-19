@@ -167,7 +167,7 @@
                                     </div>
                                 </div>
                                 <div id="stadio" class="btn-group w-100 mt-2">
-                                    <buttontype="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+                                    <button type="button" class="btn bg-light rounded-xs btn-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
                                         <div class="w-50 float-left text-left h-100 content-title">
                                             <h6 class="m-0 p-0">Portable</h6>
                                             <h5 class="blue m-0 p-0 bold">Stadiometer</h5>
@@ -175,15 +175,15 @@
                                         <div class="stadio w-50 float-left text-right h-100 icon">
                                             <img class="nav-arrow arrow-stadio btn-arrow-down">
                                         </div>
-                                        </buttontype=>
-                                        <div class="dropdown-menu sobad-dropdown" style="">
-                                            <a class="dropdown-item sobad-drodown-item" href="https://www.youtube.com/watch?v=JKcsRQCdgEQ&list=PLuX5spsJ1i8JWKK7cMnqQaDGwmqjzhC67&index=2" target="_blank">
-                                                <h6 class="m-0">Cara Pemasangan</h6>
-                                            </a>
-                                            <a class="dropdown-item sobad-drodown-item" href="https://www.youtube.com/watch?v=pmMgv4iwEgg" target="_blank">
-                                                <h6 class="m-0">Cara Penggunaan</h6>
-                                            </a>
-                                        </div>
+                                    </button>
+                                    <div class="dropdown-menu sobad-dropdown">
+                                        <a class="dropdown-item sobad-drodown-item" href="https://www.youtube.com/watch?v=JKcsRQCdgEQ&list=PLuX5spsJ1i8JWKK7cMnqQaDGwmqjzhC67&index=2" target="_blank">
+                                            <h6 class="m-0">Cara Pemasangan</h6>
+                                        </a>
+                                        <a class="dropdown-item sobad-drodown-item" href="https://www.youtube.com/watch?v=pmMgv4iwEgg" target="_blank">
+                                            <h6 class="m-0">Cara Penggunaan</h6>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                             <!-- =============Infantometer Port================= -->
